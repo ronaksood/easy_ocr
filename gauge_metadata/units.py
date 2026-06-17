@@ -1,8 +1,6 @@
 from typing import Optional
 
 # Set-based vocabulary for O(1) exact word matching.
-# No longer needs longest-match-first ordering because we match
-# whole word tokens, not substrings.
 UNIT_VOCABULARY: frozenset[str] = frozenset({
     "bar", "mbar", "psi", "kpa", "mpa", "pa",
     "kg/cm2", "kg/cm²", "kgf/cm2", "kgf/cm²",
@@ -12,14 +10,17 @@ UNIT_VOCABULARY: frozenset[str] = frozenset({
     "rpm", "lpm", "l/min", "gpm",
 })
 
-_STRIP_CHARS = "'\"~,;:!?_.})]>#@"
+# Only strip punctuation that realistically appears as OCR artifact
+# around a genuine unit label. Deliberately excludes #, @, _, etc.
+# to avoid stripping garbage chars and creating false matches like "#a" → "a".
+_STRIP_CHARS = ",.;:!?\""
 
 
 def match_unit(texts: list[str]) -> Optional[str]:
     """Match OCR-detected text against the engineering unit vocabulary.
 
     Splits each text into word tokens and checks for exact matches,
-    preventing false positives from substring matching (e.g. 'a' inside 'WKAU').
+    preventing false positives from substring matching.
     """
     for text in texts:
         tokens = text.strip().lower().split()
