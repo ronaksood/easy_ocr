@@ -1,1 +1,3 @@
 __pycache__
+.paddle_venv/
+.venv/
