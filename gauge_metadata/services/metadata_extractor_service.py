@@ -3,8 +3,8 @@ import logging
 from gauge_metadata.schemas.metadata import GaugeMetadata
 from gauge_metadata.services.ocr_service import OcrService
 from gauge_metadata.services.paddle_service import PaddleService
-from gauge_metadata.services.tesseract_service import TesseractService
-# from gauge_metadata.services.rapid_service import RapidOcrService
+# from gauge_metadata.services.tesseract_service import TesseractService
+from gauge_metadata.services.rapid_service import RapidOcrService
 
 from gauge_metadata.utils.numbers import extract_numbers, infer_zero
 from gauge_metadata.utils.units import match_unit
@@ -15,14 +15,14 @@ logger = logging.getLogger(__name__)
 class MetadataExtractorService:
     """Service that orchestrates the extraction of gauge metadata from images."""
 
-    # def __init__(self, ocr_service: OcrService) -> None:
-    #     self.ocr_service = ocr_service
+    def __init__(self, ocr_service: OcrService) -> None:
+        self.ocr_service = ocr_service
 
-    #  def __init__(self, paddle_service: PaddleService) -> None:
+    # def __init__(self, paddle_service: PaddleService) -> None:
     #     self.paddle_service = paddle_service
 
-    def __init__(self, tesseract_service: TesseractService) -> None:
-        self.tesseract_service = tesseract_service
+    # def __init__(self, tesseract_service: TesseractService) -> None:
+    #     self.tesseract_service = tesseract_service
 
     # def __init__(self, rapid_service: RapidOcrService) -> None:
     #     self.rapid_service = rapid_service
@@ -38,9 +38,9 @@ class MetadataExtractorService:
           5. Min / max range assignment
           6. Build and return GaugeMetadata
         """
-        # texts = self.ocr_service.read_image(image_path)
+        texts = self.ocr_service.read_image(image_path)
         # texts = self.paddle_service.read_image(image_path)
-        texts = self.tesseract_service.read_image(image_path)
+        # texts = self.tesseract_service.read_image(image_path)
 
         # texts = self.rapid_service.read_image(image_path)
         unit = match_unit(texts)

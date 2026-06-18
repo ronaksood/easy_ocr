@@ -375,7 +375,7 @@
   },
   {
     "file": "1- 14-00 - 14HCB02CT001-2_jpg.rf.515dMqc8Ws45STP75KQl.jpg",
-    "unit": null,
+    "unit": "°c",
     "min_value": 0.0,
     "max_value": 800.0,
     "all_detected_text": [
@@ -432,7 +432,7 @@
   },
   {
     "file": "10- 11-00 14PGT41CT501-1_jpg.rf.aFcQryUCOxx1EvS9dEye.jpg",
-    "unit": null,
+    "unit": "°c",
     "min_value": 0.0,
     "max_value": 80.0,
     "all_detected_text": [
@@ -464,7 +464,7 @@
   },
   {
     "file": "10- 13-00 - 14HLB10CT501-2_jpg.rf.BEM0QmIO9kQVVciNlXWG.jpg",
-    "unit": null,
+    "unit": "°c",
     "min_value": 0.0,
     "max_value": 120.0,
     "all_detected_text": [
@@ -627,7 +627,7 @@
   },
   {
     "file": "10- 14HLB10CT501-1 (2)_jpg.rf.wxEe0HTfQOEvpzkBd0Xx.jpg",
-    "unit": null,
+    "unit": "°c",
     "min_value": 0.0,
     "max_value": 120.0,
     "all_detected_text": [
@@ -798,7 +798,7 @@
   },
   {
     "file": "2- 13-00 - 14HTC11CT503-1_jpg.rf.X0MxIamnZZhdOTfTkbRq.jpg",
-    "unit": null,
+    "unit": "°c",
     "min_value": 0.0,
     "max_value": 60.0,
     "all_detected_text": [
@@ -856,7 +856,7 @@
   },
   {
     "file": "2-10-00-14HCB04CT001-2-jpg-5dhbmb9v-ingestion-585c5dcfbb-qz9dm_jpg.rf.YMl4Ojy2TFSNlsTt0b7U.jpg",
-    "unit": null,
+    "unit": "°c",
     "min_value": 0.0,
     "max_value": 800.0,
     "all_detected_text": [

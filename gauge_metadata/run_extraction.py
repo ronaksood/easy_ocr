@@ -10,8 +10,8 @@ project_root = Path(__file__).resolve().parent.parent
 if str(project_root) not in sys.path:
     sys.path.insert(0, str(project_root))
 
-# from gauge_metadata.services.rapid_service import RapidOcrService
-from gauge_metadata.services.tesseract_service import TesseractService
+from gauge_metadata.services.rapid_service import RapidOcrService
+# from gauge_metadata.services.tesseract_service import TesseractService
 
 from gauge_metadata.services.paddle_service import PaddleService
 from gauge_metadata.services.metadata_extractor_service import MetadataExtractorService
@@ -45,14 +45,14 @@ def main() -> None:
     logger.info("Found %d images in %s", len(image_files), IMAGE_DIR)
 
 
-    # ocr_service = OcrService()
-    # extractor_service = MetadataExtractorService(ocr_service=ocr_service)
+    ocr_service = OcrService()
+    extractor_service = MetadataExtractorService(ocr_service=ocr_service)
 
     # paddle_service = PaddleService()
     # extractor_service = MetadataExtractorService(paddle_service=paddle_service)
   
-    tesseract_service = TesseractService()
-    extractor_service = MetadataExtractorService(tesseract_service=tesseract_service)
+    # tesseract_service = TesseractService()
+    # extractor_service = MetadataExtractorService(tesseract_service=tesseract_service)
 
     # rapid_service = RapidOcrService()
     # extractor_service = MetadataExtractorService(rapid_service=rapid_service)

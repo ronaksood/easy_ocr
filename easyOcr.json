@@ -336,7 +336,7 @@
   },
   {
     "file": "1- 14-00 - 14HCB02CT001-2_jpg.rf.515dMqc8Ws45STP75KQl.jpg",
-    "unit": null,
+    "unit": "°c",
     "min_value": 0.0,
     "max_value": 800.0,
     "all_detected_text": [
@@ -392,7 +392,7 @@
   },
   {
     "file": "10- 11-00 14PGT41CT501-1_jpg.rf.aFcQryUCOxx1EvS9dEye.jpg",
-    "unit": null,
+    "unit": "°c",
     "min_value": 0.0,
     "max_value": 80.0,
     "all_detected_text": [
@@ -578,7 +578,7 @@
   },
   {
     "file": "10- 14HLB10CT501-1 (2)_jpg.rf.wxEe0HTfQOEvpzkBd0Xx.jpg",
-    "unit": null,
+    "unit": "°c",
     "min_value": 0.0,
     "max_value": 120.0,
     "all_detected_text": [
@@ -839,7 +839,7 @@
   },
   {
     "file": "20201116_48_jpg.rf.5zAINOPmfCJSaN7MHAYy.jpg",
-    "unit": null,
+    "unit": "°c",
     "min_value": 2.0,
     "max_value": 10.0,
     "all_detected_text": [

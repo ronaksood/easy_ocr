@@ -1,6 +1,6 @@
 import logging
 
-# from rapidocr_onnxruntime import RapidOCR
+from rapidocr_onnxruntime import RapidOCR
 
 logger = logging.getLogger(__name__)
 
