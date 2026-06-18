@@ -3,6 +3,7 @@ import logging
 from gauge_metadata.schemas.metadata import GaugeMetadata
 from gauge_metadata.services.ocr_service import OcrService
 from gauge_metadata.services.paddle_service import PaddleService
+from gauge_metadata.services.tesseract_service import TesseractService
 # from gauge_metadata.services.rapid_service import RapidOcrService
 
 from gauge_metadata.utils.numbers import extract_numbers, infer_zero
@@ -17,9 +18,11 @@ class MetadataExtractorService:
     # def __init__(self, ocr_service: OcrService) -> None:
     #     self.ocr_service = ocr_service
 
+    #  def __init__(self, paddle_service: PaddleService) -> None:
+    #     self.paddle_service = paddle_service
 
-    def __init__(self, paddle_service: PaddleService) -> None:
-        self.paddle_service = paddle_service
+    def __init__(self, tesseract_service: TesseractService) -> None:
+        self.tesseract_service = tesseract_service
 
     # def __init__(self, rapid_service: RapidOcrService) -> None:
     #     self.rapid_service = rapid_service
@@ -36,7 +39,8 @@ class MetadataExtractorService:
           6. Build and return GaugeMetadata
         """
         # texts = self.ocr_service.read_image(image_path)
-        texts = self.paddle_service.read_image(image_path)
+        # texts = self.paddle_service.read_image(image_path)
+        texts = self.tesseract_service.read_image(image_path)
 
         # texts = self.rapid_service.read_image(image_path)
         unit = match_unit(texts)

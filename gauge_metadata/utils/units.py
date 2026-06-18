@@ -35,6 +35,25 @@ UNIT_VOCABULARY: frozenset[str] = frozenset({
 # to avoid stripping garbage chars and creating false matches like "#a" → "a".
 _STRIP_CHARS = ",.;:!?\""
 
+# Map common OCR variations/artifacts of temperature units to canonical forms
+_NORMALIZE_MAP: dict[str, str] = {
+    # Celsius variations -> canonical "°c"
+    "°c": "°c",
+    "℃": "°c",
+    "oc": "°c",
+    "o°c": "°c",
+    "celsius": "°c",
+    "c": "°c",
+    
+    # Fahrenheit variations -> canonical "°f"
+    "°f": "°f",
+    "℉": "°f",
+    "of": "°f",
+    "o°f": "°f",
+    "fahrenheit": "°f",
+    "f": "°f",
+}
+
 
 def match_unit(texts: list[str]) -> str | None:
     """Match OCR-detected text against the engineering unit vocabulary.
@@ -46,6 +65,8 @@ def match_unit(texts: list[str]) -> str | None:
         tokens = text.strip().lower().split()
         for token in tokens:
             cleaned = token.strip(_STRIP_CHARS)
-            if cleaned in UNIT_VOCABULARY:
-                return cleaned
+            normalized = _NORMALIZE_MAP.get(cleaned, cleaned)
+            if normalized in UNIT_VOCABULARY:
+                return normalized
     return None
+
