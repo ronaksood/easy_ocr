@@ -10,6 +10,9 @@ project_root = Path(__file__).resolve().parent.parent
 if str(project_root) not in sys.path:
     sys.path.insert(0, str(project_root))
 
+# from gauge_metadata.services.rapid_service import RapidOcrService
+
+from gauge_metadata.services.paddle_service import PaddleService
 from gauge_metadata.services.metadata_extractor_service import MetadataExtractorService
 from gauge_metadata.services.ocr_service import OcrService
 
@@ -40,8 +43,15 @@ def main() -> None:
 
     logger.info("Found %d images in %s", len(image_files), IMAGE_DIR)
 
-    ocr_service = OcrService()
-    extractor_service = MetadataExtractorService(ocr_service=ocr_service)
+
+    # ocr_service = OcrService()
+    # extractor_service = MetadataExtractorService(ocr_service=ocr_service)
+
+    paddle_service = PaddleService()
+    extractor_service = MetadataExtractorService(paddle_service=paddle_service)
+
+    # rapid_service = RapidOcrService()
+    # extractor_service = MetadataExtractorService(rapid_service=rapid_service)
 
     results: list[dict] = []
     for image_path in image_files:

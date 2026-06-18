@@ -1,0 +1,262 @@
+{
+    "default": {
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "unit": "%"
+    },
+    "000009_png.rf.03f7d8720d63f9226e38d18fb05a81aa.jpg": {
+        "min_value": 0.0,
+        "max_value": 25.0,
+        "unit": "bar"
+    },
+    "000012_jpg.rf.f98fd43349857730892ba7899a02d2ce.jpg": {
+        "min_value": 0.0,
+        "max_value": 5000.0,
+        "unit": "psi"
+    },
+    "000016_jpg.rf.5e5231d44690396a562b3f8fd70fdbb4.jpg": {
+        "min_value": 0.0,
+        "max_value": 1500.0,
+        "unit": "hydraulic"
+    },
+    "000027_jpg.rf.4176b6a1e45b5384646beb611579089f.jpg": {
+        "min_value": 1.0,
+        "max_value": 15.0,
+        "unit": "psi"
+    },
+    "000028_jpg.rf.150bc5309cea72095d03dee55b743558.jpg": {
+        "min_value": 0.0,
+        "max_value": 300.0,
+        "unit": "psi"
+    },
+    "00117_jpg.rf.2430d56df5275902103f94c212595088.jpg": {
+        "min_value": 0.0,
+        "max_value": 2.5,
+        "unit": "MPa"
+    },
+    "005_jpg.rf.2ffae07473af9781a98327a37e461921.jpg": {
+        "min_value": 0.0,
+        "max_value": 90.0,
+        "unit": ""
+    },
+    "005d3dc9-d0a6-11ed-b6d6-2089845231c1_jpeg.rf.ZY79ExW95IYvnwgMknbE.jpeg": {
+        "min_value": 0.0,
+        "max_value": 25.0,
+        "unit": "bar"
+    },
+    "00db64cfe2c081e7780a09605a1d0faa_jpg.rf.56a25def937ed8e25fe42b5e2a82dd4a.jpg": {
+        "min_value": 0.0,
+        "max_value": 0.1,
+        "unit": "MPa"
+    },
+    "019_jpg.rf.6f1ce1dbb2cb29f2980515d8ddbd9df7.jpg": {
+        "min_value": 0.0,
+        "max_value": 90.0,
+        "unit": ""
+    },
+    "01ac1c50-d0a6-11ed-b077-2089845231c1_jpeg.rf.ZGqBjtM0yBzsAxEloaFN.jpeg": {
+        "min_value": 0.0,
+        "max_value": 25.0,
+        "unit": "bar"
+    },
+    "1- 11-00 14HTM11CP501-2_jpg.rf.4ERYPufd7ok358BAChLK.jpg": {
+        "min_value": -1.0,
+        "max_value": 3.0,
+        "unit": "bar"
+    },
+    "1- 13-00 - 14HTD21CP501-1_jpg.rf.UnrY2lTsn2nuy3IhRCp9.jpg": {
+        "min_value": 0.0,
+        "max_value": 4.0,
+        "unit": "bar"
+    },
+    "1- 13-00 - 14HTD21CP501-2_jpg.rf.WbM0rtosCrRJFzeOLiQu.jpg": {
+        "min_value": 0.0,
+        "max_value": 4.0,
+        "unit": "bar"
+    },
+    "1- 14-00 - 14HCB02CT001-2_jpg.rf.515dMqc8Ws45STP75KQl.jpg": {
+        "min_value": 0.0,
+        "max_value": 800.0,
+        "unit": "C"
+    },
+    "10- 11-00 14HTQ51CP502-2_jpg.rf.M4DcZhHgS14a0VYDcgL6.jpg": {
+        "min_value": 0.0,
+        "max_value": 15.0,
+        "unit": "bar"
+    },
+    "10- 11-00 14PGT41CT501-1_jpg.rf.aFcQryUCOxx1EvS9dEye.jpg": {
+        "min_value": 0.0,
+        "max_value": 80.0,
+        "unit": "C"
+    },
+    "10- 13-00 - 14HLB10CT501-2_jpg.rf.BEM0QmIO9kQVVciNlXWG.jpg": {
+        "min_value": 0.0,
+        "max_value": 120.0,
+        "unit": "C"
+    },
+    "10- 13-00 - 14HTC12CT502-1_jpg.rf.BIxpQjC3OGvi8yCuXGNr.jpg": {
+        "min_value": 0.0,
+        "max_value": 60.0,
+        "unit": "C"
+    },
+    "10- 13-00 - 14HTC12CT502-1_jpg.rf.ISqF7ZncpKMY4DKgvcek.jpg": {
+        "min_value": 0.0,
+        "max_value": 60.0,
+        "unit": "C"
+    },
+    "10- 13-00 - 14HTD24CP502-2_jpg.rf.N1vjgAK6984KWbw83Zr1.jpg": {
+        "min_value": 0.0,
+        "max_value": 7.0,
+        "unit": "bar"
+    },
+    "10- 13-00 - 14MAJ12CP501-1_jpg.rf.KvAFytZFpdbRquEoRiuI.jpg": {
+        "min_value": -1.0,
+        "max_value": 0.0,
+        "unit": "bar"
+    },
+    "10- 13-00 14PGT41CT501-2_jpg.rf.tyoTPuogYsM67zLwU4tN.jpg": {
+        "min_value": 0.0,
+        "max_value": 80.0,
+        "unit": "C"
+    },
+    "10- 14HLB10CT501-1 (2)_jpg.rf.wxEe0HTfQOEvpzkBd0Xx.jpg": {
+        "min_value": 0.0,
+        "max_value": 120.0,
+        "unit": "C"
+    },
+    "1007_jpg.rf.5b44ca4373d35e49a5da488ed7910c79.jpg": {
+        "min_value": 0.0,
+        "max_value": 0.1,
+        "unit": "MPa"
+    },
+    "10_jpg.rf.caa2862c439c44236a6baa137acc44fc.jpg": {
+        "min_value": 0.0,
+        "max_value": 6.0,
+        "unit": "bar"
+    },
+    "16-14HTC12CP504_19-00_jpg.rf.427778801fbe035234a9bce3b7170bc8.jpg": {
+        "min_value": 0.0,
+        "max_value": 40.0,
+        "unit": "bar"
+    },
+    "170_jpg.rf.f2f22c69692593459de9dd2a0b568ea3.jpg": {
+        "min_value": 0.0,
+        "max_value": 60.0,
+        "unit": "psi"
+    },
+    "180_jpg.rf.Bu6vRndkZ63sO4fifLi6.jpg": {
+        "min_value": 0.0,
+        "max_value": 10.0,
+        "unit": "MPa"
+    },
+    "2- 13-00 - 14HTC11CT503-1_jpg.rf.X0MxIamnZZhdOTfTkbRq.jpg": {
+        "min_value": 0.0,
+        "max_value": 60.0,
+        "unit": "C"
+    },
+    "2- 13-00 14HTM11CP502-1_jpg.rf.ZHih0OUvp37DnQ9SBYov.jpg": {
+        "min_value": 0.0,
+        "max_value": 10.0,
+        "unit": "bar"
+    },
+    "2-10-00-14HCB04CT001-2-jpg-5dhbmb9v-ingestion-585c5dcfbb-qz9dm_jpg.rf.YMl4Ojy2TFSNlsTt0b7U.jpg": {
+        "min_value": 0.0,
+        "max_value": 800.0,
+        "unit": "C"
+    },
+    "20201116_48_jpg.rf.5zAINOPmfCJSaN7MHAYy.jpg": {
+        "min_value": 0.0,
+        "max_value": 10.0,
+        "unit": ""
+    },
+    "20220621_230732215_iOS-jpg-5dhbmnhb-ingestion-585c5dcfbb-tbfh5_jpg.rf.5715O894bc2ZWdgAG6dq.jpg": {
+        "min_value": 0.0,
+        "max_value": 330.0,
+        "unit": ""
+    },
+    "225_PNG_jpg.rf.OTTMaL9lm1NcD2sDIcpC.jpg": {
+        "min_value": 0.0,
+        "max_value": 140.0,
+        "unit": ""
+    },
+    "35-031-0002_xx_1_jpg.rf.kDi7SY859P7c3utlorJC.jpg": {
+        "min_value": 0.0,
+        "max_value": 5000.0,
+        "unit": "BAR"
+    },
+    "794f7ad4ab274cb6a43ebe225015c7f3_jpeg_jpg.rf.Ex5oE1kkdElHpYV9oHil.jpg": {
+        "min_value": 45.0,
+        "max_value": 55.0,
+        "unit": "HERTZ"
+    },
+    "image18_jpeg_jpg.rf.fdOvg6LbdWQD8lHuoRaN.jpg": {
+        "min_value": 0.0,
+        "max_value": 160.0,
+        "unit": "psi"
+    },
+    "istockphoto-1323074940-1024x1024-jpg-5dhbrdid-ingestion-585c5dcfbb-ltlqg_jpg.rf.FoPcHfKr0pPIINKx4sOl.jpg": {
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "unit": "HUMIDITY"
+    },
+    "istockphoto-1460718388-612x612_jpg.rf.mLyiPu4xEMwo6vWK3EgQ.jpg": {
+        "min_value": 0.0,
+        "max_value": 6.0,
+        "unit": "bar"
+    },
+    "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.D9GypfYMF9rD5ZH7DVrg.jpg": {
+        "min_value": 0.0,
+        "max_value": 100.0,
+        "unit": "psi"
+    },
+    "pressureGauge_14_jpg.rf.xcEPW4tOTkHfEm2gB4cK.jpg": {
+        "min_value": 0.0,
+        "max_value": 400.0,
+        "unit": "mBAR"
+    },
+    "pressureGauge_247_jpg.rf.3rocZmLA95HB3XaFMk7B.jpg": {
+        "min_value": 0.0,
+        "max_value": 4.0,
+        "unit": "bar"
+    },
+    "pressureGauge_283_jpg.rf.7ZBTHgSMxXoudBdH1a7C.jpg": {
+        "min_value": 0.0,
+        "max_value": 250.0,
+        "unit": "mbar"
+    },
+    "pressureGauge_324_jpg.rf.j1iX3J5d9fdrRjBi5v9S.jpg": {
+        "min_value": 0.0,
+        "max_value": 4.0,
+        "unit": "bar"
+    },
+    "pressureGauge_349_jpg.rf.w4VBGK5ello7yc6o5JoL.jpg": {
+        "min_value": 0.0,
+        "max_value": 60.0,
+        "unit": "mbar"
+    },
+    "pressureGauge_359_jpg.rf.JmwLYfh25ZHgwUxcBf2O.jpg": {
+        "min_value": 0.0,
+        "max_value": 160.0,
+        "unit": "psi"
+    },
+    "pressureGauge_419_jpg.rf.gCHYGGvW7aTu7Qwxp7aC.jpg": {
+        "min_value": 0.0,
+        "max_value": 10.0,
+        "unit": "bar"
+    },
+    "pressureGauge_53_jpg.rf.MahAkc8TKMrCw1IcDaRV.jpg": {
+        "min_value": 0.0,
+        "max_value": 220.0,
+        "unit": "psi"
+    },
+    "pressureGauge_82_jpg.rf.p2RVqKSsFlF8OofX4p9z.jpg": {
+        "min_value": 0.0,
+        "max_value": 10.0,
+        "unit": "bar"
+    },
+    "pressureGauge_87_jpg.rf.5N5V3aU3VdgIkEPSo2Qd.jpg": {
+        "min_value": 0.0,
+        "max_value": 160.0,
+        "unit": "mBAR"
+    }
+}

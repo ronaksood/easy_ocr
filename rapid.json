@@ -7,17 +7,24 @@
     "all_detected_text": [
       "10",
       "15",
-      "EN837",
+      "S",
+      "EN837-",
+      "5",
+      "20",
       "316L",
       "25",
+      "SAF",
       "bar",
       "CL1.0",
-      "[WAKAl]"
+      "013153122",
+      "WAKA!)"
     ],
     "all_detected_numbers": [
       0.0,
+      5.0,
       10.0,
       15.0,
+      20.0,
       25.0
     ]
   },
@@ -34,14 +41,13 @@
       "100",
       "4000",
       "1000",
-      "300-",
+      "300",
       "50",
-      "0",
       "350",
-      "5000",
       "bar",
-      "0",
-      "psi"
+      "T",
+      "psi",
+      "5000"
     ],
     "all_detected_numbers": [
       0.0,
@@ -68,6 +74,7 @@
       "500",
       "1000",
       "250",
+      "250",
       "1500",
       "HYORAULIC"
     ],
@@ -86,14 +93,13 @@
     "min_value": 0.0,
     "max_value": 15.0,
     "all_detected_text": [
-      "STEWAR",
-      "I",
       "/",
       "10",
       "5",
-      "sW",
+      "SW",
       "15",
       "FUEL",
+      "一",
       "PSI"
     ],
     "all_detected_numbers": [
@@ -112,15 +118,15 @@
       "150",
       "100",
       "200",
-      "Hisvis",
-      "AS13",
+      "HiVisk",
+      "AS3",
       "50",
       "250",
       "psi",
       "300",
       "REOTEMP",
       "SAN DIEGO",
-      "CA"
+      "-CA-USA"
     ],
     "all_detected_numbers": [
       0.0,
@@ -134,15 +140,22 @@
   },
   {
     "file": "00117_jpg.rf.2430d56df5275902103f94c212595088.jpg",
-    "unit": null,
-    "min_value": 1.5,
+    "unit": "mpa",
+    "min_value": 0.0,
     "max_value": 2.5,
     "all_detected_text": [
+      "1.0",
       "1.5",
+      "0.5",
       "2.0",
-      "2.5"
+      "MPa",
+      "2.5",
+      "cac"
     ],
     "all_detected_numbers": [
+      0.0,
+      0.5,
+      1.0,
       1.5,
       2.0,
       2.5
@@ -151,54 +164,53 @@
   {
     "file": "005_jpg.rf.2ffae07473af9781a98327a37e461921.jpg",
     "unit": null,
-    "min_value": 10.0,
-    "max_value": 604.0,
+    "min_value": 0.0,
+    "max_value": 900.0,
     "all_detected_text": [
-      "10",
-      "9010",
+      "0",
+      "900",
+      "010",
+      "三",
       "20",
       "80",
-      "20",
       "80",
-      "0.01mm110",
-      "mm",
+      "20",
+      "0.01mm-1-0",
       "30",
       "70",
-      "JII.",
+      "JI.",
       "30",
-      "604",
+      "6040",
+      "6040",
       "50"
     ],
     "all_detected_numbers": [
+      0.0,
       10.0,
       20.0,
       30.0,
       50.0,
       70.0,
       80.0,
-      604.0
+      900.0
     ]
   },
   {
     "file": "005d3dc9-d0a6-11ed-b6d6-2089845231c1_jpeg.rf.ZY79ExW95IYvnwgMknbE.jpeg",
-    "unit": "bar",
-    "min_value": -5.0,
+    "unit": null,
+    "min_value": 0.0,
     "max_value": 25.0,
     "all_detected_text": [
       "10",
       "15",
-      "IN&-1",
-      "-5",
-      "20-",
-      "0",
-      "25",
-      "X",
-      "bar",
-      "WIKAI"
+      "EN7-1",
+      "5",
+      "20",
+      "25"
     ],
     "all_detected_numbers": [
-      -5.0,
       0.0,
+      5.0,
       10.0,
       15.0,
       20.0,
@@ -211,21 +223,22 @@
     "min_value": 0.0,
     "max_value": 0.1,
     "all_detected_text": [
-      "10128",
-      "funcey",
+      "1012P9",
       "LICENSE",
       "0.04",
       "0.06",
-      "E*",
+      "压力表",
       "0.02",
       "0.08",
       "PA",
+      "MPa",
       "2006F329-33",
-      "1.6",
-      "0",
+      "16",
       "0.1",
+      "红旗",
       "HONGQi",
-      "No.HY74550700580"
+      "红旗仪表有限公司",
+      "No.HYZ4550700580"
     ],
     "all_detected_numbers": [
       0.0,
@@ -242,29 +255,29 @@
     "min_value": 0.0,
     "max_value": 80.0,
     "all_detected_text": [
-      "9010",
-      "9010",
-      "20",
-      "80",
-      "80",
-      "20",
-      "70",
-      "0.01mm0-10mm",
-      "30",
-      "30",
-      "JX",
       "0",
-      "60",
+      "006",
+      "910",
+      "20",
+      "Bo",
+      "80",
+      "20",
+      "0.01mm1-0-10mm",
+      "30",
+      "70",
+      "30",
+      "JIX",
+      "6040",
       "40",
       "50"
     ],
     "all_detected_numbers": [
       0.0,
+      6.0,
       20.0,
       30.0,
       40.0,
       50.0,
-      60.0,
       70.0,
       80.0
     ]
@@ -281,10 +294,10 @@
       "-5",
       "20",
       "25",
-      "max.+150C",
+      "max+150℃",
       "bar",
-      "C.15",
-      "[WIKA]"
+      "CL15",
+      "WIKAI"
     ],
     "all_detected_numbers": [
       -5.0,
@@ -300,42 +313,39 @@
     "min_value": -1.0,
     "max_value": 1.0,
     "all_detected_text": [
+      "SWISSMOVEMENT",
       "1",
-      "+0",
-      "EN837",
+      "0",
+      "EN837-",
+      "二",
       "-1",
       "bar",
       "CL1.0",
       "11/16",
       "WIKAI",
-      "SAFETLECGLAS"
+      "AFEULECSU"
     ],
     "all_detected_numbers": [
       -1.0,
+      0.0,
       1.0
     ]
   },
   {
     "file": "1- 13-00 - 14HTD21CP501-1_jpg.rf.UnrY2lTsn2nuy3IhRCp9.jpg",
     "unit": "bar",
-    "min_value": 0.0,
-    "max_value": 3.0,
+    "min_value": null,
+    "max_value": null,
     "all_detected_text": [
-      "2",
-      "FILLFLUID _2",
-      "P.T.F.E.WETTEDPARTS",
+      "FILLFLUD2",
+      "P.T.F.E.WETTED PARTS",
       "3-",
-      "MO TECH",
-      "ALLTP",
-      "0",
-      "-",
+      "NO TECH",
+      "SLTD",
       "bar",
-      "U.K",
-      "$966370/1"
+      "2846370/1"
     ],
     "all_detected_numbers": [
-      0.0,
-      2.0,
       3.0
     ]
   },
@@ -343,23 +353,24 @@
     "file": "1- 13-00 - 14HTD21CP501-2_jpg.rf.WbM0rtosCrRJFzeOLiQu.jpg",
     "unit": "bar",
     "min_value": 0.0,
-    "max_value": 2.0,
+    "max_value": 3.0,
     "all_detected_text": [
       "T",
       "2",
-      "I",
-      "P.T.F.E.WETTEDPARTS",
-      "L2",
-      "3om",
-      "OTECH",
-      "0",
-      "LTD",
+      "1",
+      "P.T.F.E.WETTED PARTS",
+      "FILLFLUID2",
+      "3",
+      "KO TECH",
+      "RVRLTD",
       "bar",
-      "24240370/1"
+      "2248370/9"
     ],
     "all_detected_numbers": [
       0.0,
-      2.0
+      1.0,
+      2.0,
+      3.0
     ]
   },
   {
@@ -379,9 +390,10 @@
       "700",
       "800",
       "0",
-      "oC",
+      "℃",
+      "Tul",
       "Baumer",
-      "KI.1"
+      "K1.1"
     ],
     "all_detected_numbers": [
       0.0,
@@ -398,24 +410,22 @@
   {
     "file": "10- 11-00 14HTQ51CP502-2_jpg.rf.M4DcZhHgS14a0VYDcgL6.jpg",
     "unit": "bar",
-    "min_value": 10.0,
+    "min_value": 0.0,
     "max_value": 15.0,
     "all_detected_text": [
-      "SWISS",
-      "MOVEMENT",
-      "-",
-      "-",
-      "I",
       "10",
+      "5",
       "EN83-1",
-      "O",
       "15",
       "bar",
       "CL1.0",
       "09/17",
-      "WIKAI"
+      "WIKAI",
+      "UOJRBDOS"
     ],
     "all_detected_numbers": [
+      0.0,
+      5.0,
       10.0,
       15.0
     ]
@@ -424,56 +434,55 @@
     "file": "10- 11-00 14PGT41CT501-1_jpg.rf.aFcQryUCOxx1EvS9dEye.jpg",
     "unit": null,
     "min_value": 0.0,
-    "max_value": 101.0,
+    "max_value": 80.0,
     "all_detected_text": [
-      "40",
+      "07",
       "50",
-      "38",
+      "30",
       "60",
-      "EN 13190",
-      "101",
+      "EN13190",
+      "20",
       "70",
+      "10",
+      "Tul",
       "80",
       "0",
-      "C",
-      "WIKA)"
+      "℃",
+      "WIKA"
     ],
     "all_detected_numbers": [
       0.0,
-      38.0,
-      40.0,
+      7.0,
+      10.0,
+      20.0,
+      30.0,
       50.0,
       60.0,
       70.0,
-      80.0,
-      101.0
+      80.0
     ]
   },
   {
     "file": "10- 13-00 - 14HLB10CT501-2_jpg.rf.BEM0QmIO9kQVVciNlXWG.jpg",
     "unit": null,
-    "min_value": 1.5,
+    "min_value": 0.0,
     "max_value": 120.0,
     "all_detected_text": [
       "60",
-      "40",
-      "C",
-      "141111",
+      "℃",
       "80",
-      "SS-",
-      "IndustriaRimetal Thermometer",
+      "SS-4中",
+      "Industriaimetai Thermometer",
       "20",
       "100",
-      "1.5",
       "120",
       "MC-01080056",
-      "NO20462500",
-      "f"
+      "上海仪表（集团）公司制造部",
+      "No22604662"
     ],
     "all_detected_numbers": [
-      1.5,
+      0.0,
       20.0,
-      40.0,
       60.0,
       80.0,
       100.0,
@@ -493,12 +502,11 @@
       "50",
       "10",
       "60",
-      "oC",
+      "0",
+      "Jo",
       "GAS SYSTEM",
       "CL1",
-      "WIKAI",
-      "110J59",
-      "GP"
+      "WIKAI"
     ],
     "all_detected_numbers": [
       0.0,
@@ -519,17 +527,14 @@
       "30",
       "40",
       "20",
-      "EN13190",
-      "/",
+      "EN 13190",
       "50",
       "10",
-      "1111",
       "60",
-      "oC",
+      "Jo",
       "GAS SYSTEM",
-      "CL.1",
-      "[WIKAll",
-      "1100J59"
+      "CL1",
+      "WIKAI"
     ],
     "all_detected_numbers": [
       0.0,
@@ -548,18 +553,15 @@
     "max_value": 7.0,
     "all_detected_text": [
       "3",
-      "W",
       "2",
+      "EN837-",
       "5",
-      "EN837",
       "1",
       "6",
-      "-",
       "0",
       "7",
       "bar",
-      "[WIKA]",
-      "DLA"
+      "WIKA"
     ],
     "all_detected_numbers": [
       0.0,
@@ -575,25 +577,25 @@
     "file": "10- 13-00 - 14MAJ12CP501-1_jpg.rf.KvAFytZFpdbRquEoRiuI.jpg",
     "unit": "bar",
     "min_value": 0.0,
-    "max_value": 3.0,
+    "max_value": 1.0,
     "all_detected_text": [
       "0.6",
-      "U.4",
-      "3",
-      "PRESSURE GA",
+      "B",
+      "PRESSUREGA",
       "0.8",
       "0.2",
       "1",
       "bar",
-      "0"
+      "0",
+      "8",
+      "nD-"
     ],
     "all_detected_numbers": [
       0.0,
       0.2,
       0.6,
       0.8,
-      1.0,
-      3.0
+      1.0
     ]
   },
   {
@@ -602,22 +604,21 @@
     "min_value": 0.0,
     "max_value": 80.0,
     "all_detected_text": [
-      "40",
       "50",
-      "39",
+      "30",
       "60",
-      "EN 13190",
+      "EN13190",
+      "20",
       "70",
       "10",
       "80",
-      "0",
-      "."
+      "0"
     ],
     "all_detected_numbers": [
       0.0,
       10.0,
-      39.0,
-      40.0,
+      20.0,
+      30.0,
       50.0,
       60.0,
       70.0,
@@ -627,22 +628,23 @@
   {
     "file": "10- 14HLB10CT501-1 (2)_jpg.rf.wxEe0HTfQOEvpzkBd0Xx.jpg",
     "unit": null,
-    "min_value": 4.0,
+    "min_value": 0.0,
     "max_value": 120.0,
     "all_detected_text": [
       "60",
-      "C",
+      "℃",
       "80",
-      "4",
-      "SS-",
+      "SS-49",
       "IndustriaRimetal Thermometer",
       "20",
       "100",
       "120",
-      "MC-01080056"
+      "MC-01080056",
+      "上海仪表（集团）公司制造部",
+      "NO22b04466S222"
     ],
     "all_detected_numbers": [
-      4.0,
+      0.0,
       20.0,
       60.0,
       80.0,
@@ -658,15 +660,17 @@
     "all_detected_text": [
       "0.04",
       "0.06",
-      "F*",
-      "0.08",
+      "压力表",
       "0.02",
+      "0.08",
       "PA",
       "MPa",
       "2006F329-33",
       "1.6",
       "0.1",
+      "红旗",
       "HONGQi",
+      "红旗仪表有限公司",
       "No.HY74550700580"
     ],
     "all_detected_numbers": [
@@ -681,54 +685,51 @@
   {
     "file": "10_jpg.rf.caa2862c439c44236a6baa137acc44fc.jpg",
     "unit": "bar",
-    "min_value": -3.0,
-    "max_value": 6.0,
+    "min_value": 0.0,
+    "max_value": 11.0,
     "all_detected_text": [
-      "-3",
+      "3",
       "2",
-      "EN 837",
-      "-1",
-      "5",
+      "EN837-",
+      "5-",
       "316L",
-      "0",
-      "6",
+      "9",
       "bar",
-      "CL.1.0",
-      "8970183279",
-      "WKA"
+      "011",
+      "8670183279",
+      "WIKA"
     ],
     "all_detected_numbers": [
-      -3.0,
-      -1.0,
       0.0,
       2.0,
+      3.0,
       5.0,
-      6.0
+      9.0,
+      11.0
     ]
   },
   {
     "file": "16-14HTC12CP504_19-00_jpg.rf.427778801fbe035234a9bce3b7170bc8.jpg",
     "unit": "bar",
     "min_value": 0.0,
-    "max_value": 40.0,
+    "max_value": 301.0,
     "all_detected_text": [
       "20",
-      "30",
-      "EN837-1",
+      "301",
+      "EN837-",
       "10",
       "40",
       "0",
-      "0.10",
+      "CL10",
       "bar",
-      "WIKAl"
+      "WIKA"
     ],
     "all_detected_numbers": [
       0.0,
-      0.1,
       10.0,
       20.0,
-      30.0,
-      40.0
+      40.0,
+      301.0
     ]
   },
   {
@@ -748,6 +749,7 @@
       "50",
       "5",
       "55",
+      "0",
       "60",
       "psi"
     ],
@@ -775,19 +777,18 @@
     "all_detected_text": [
       "6",
       "4",
+      "压力表",
       "MPa",
       "8",
       "2",
-      "1.6",
       "10",
       "0",
-      "MC",
       "12810126",
-      "NO_80723133"
+      "沪春自动化仪表（上海）有限公司",
+      "NO_80720"
     ],
     "all_detected_numbers": [
       0.0,
-      1.6,
       2.0,
       4.0,
       6.0,
@@ -804,21 +805,19 @@
       "30",
       "20",
       "40",
-      "EN1319",
+      "EN 1319",
       "10",
       "50",
       "0",
       "60",
-      "oC",
+      "℃",
       "GAS SYSTEM",
-      "09",
-      "WIKA",
+      "WIKAI",
       "CL1",
-      "1108JJSA"
+      "1188JJSA"
     ],
     "all_detected_numbers": [
       0.0,
-      9.0,
       10.0,
       20.0,
       30.0,
@@ -833,23 +832,23 @@
     "min_value": 0.0,
     "max_value": 10.0,
     "all_detected_text": [
-      "HLL",
+      "4",
       "6",
-      "-",
-      "EN 837-1",
+      "EN837-1",
       "2",
       "8",
       "316L",
       "10",
       "bar",
-      "CL.1.0",
-      "11/16",
+      "CL1.0",
+      "1/16",
       "WIKAI",
-      "SAFETYYGLAS"
+      "SAFETYYGLASS"
     ],
     "all_detected_numbers": [
       0.0,
       2.0,
+      4.0,
       6.0,
       8.0,
       10.0
@@ -858,27 +857,27 @@
   {
     "file": "2-10-00-14HCB04CT001-2-jpg-5dhbmb9v-ingestion-585c5dcfbb-qz9dm_jpg.rf.YMl4Ojy2TFSNlsTt0b7U.jpg",
     "unit": null,
-    "min_value": -100.0,
+    "min_value": 0.0,
     "max_value": 800.0,
     "all_detected_text": [
       "400",
       "380",
       "500",
       "200",
-      "EN 13190",
-      "862504/10",
+      "EN13190",
+      "B62504/10",
       "600",
-      "-100",
+      "100",
       "700",
       "800",
       "0",
-      "oC",
+      "℃",
       "Baumer",
       "KL1"
     ],
     "all_detected_numbers": [
-      -100.0,
       0.0,
+      100.0,
       200.0,
       380.0,
       400.0,
@@ -891,41 +890,36 @@
   {
     "file": "20201116_48_jpg.rf.5zAINOPmfCJSaN7MHAYy.jpg",
     "unit": null,
-    "min_value": -5.0,
+    "min_value": 0.0,
     "max_value": 10.0,
     "all_detected_text": [
-      "220k-SP063",
-      "20201112",
-      "17:00:04",
+      "江苏省南京市220kU莫慈湖变JK-SP063",
+      "2020年11月12日17:00:04",
       "8",
       "9",
       "7",
       "10",
-      "it",
-      "6",
+      "油位计",
       "IL LEVEL INDICATOR",
       "+40C",
-      "-5",
       "YZF3-250TH",
+      "5",
       "220V",
       "0.3A",
       "No:",
-      "+20C",
-      "#",
-      "SHENYANG SIXING RELAY MANUFACTURER CO,LTD.CHINA",
+      "+20℃",
+      "中国·沈阳",
+      "四兴继电器制造有限公",
+      "SHENYANG SIXINGRELAYMANUFACTURERCO,TD.CHINA",
       "0",
       "-30C",
-      "3",
       "2",
-      "+",
-      "220k4"
+      "220kV莫湖变4号电抗器2号云台"
     ],
     "all_detected_numbers": [
-      -5.0,
       0.0,
       2.0,
-      3.0,
-      6.0,
+      5.0,
       7.0,
       8.0,
       9.0,
@@ -935,16 +929,18 @@
   {
     "file": "20220621_230732215_iOS-jpg-5dhbmnhb-ingestion-585c5dcfbb-tbfh5_jpg.rf.5715O894bc2ZWdgAG6dq.jpg",
     "unit": null,
-    "min_value": 0.0,
+    "min_value": 3.0,
     "max_value": 330.0,
     "all_detected_text": [
       "50",
-      "6",
+      "40",
+      "60",
+      "3",
       "150",
-      "180",
-      "3I",
-      "120",
+      "16",
       "210",
+      "70",
+      "120",
       "90",
       "240",
       "20",
@@ -955,27 +951,28 @@
       "30",
       "10",
       "90",
-      "0",
-      "8",
+      "口",
+      "TAhp",
       "330",
-      "0",
+      "中",
+      "口",
       "M100",
-      "1925r."
+      "1928r"
     ],
     "all_detected_numbers": [
-      0.0,
-      6.0,
-      8.0,
+      3.0,
       10.0,
+      16.0,
       20.0,
       30.0,
+      40.0,
       50.0,
       60.0,
+      70.0,
       80.0,
       90.0,
       120.0,
       150.0,
-      180.0,
       210.0,
       240.0,
       270.0,
@@ -986,42 +983,43 @@
   {
     "file": "225_PNG_jpg.rf.OTTMaL9lm1NcD2sDIcpC.jpg",
     "unit": null,
-    "min_value": 0.0,
-    "max_value": 203.0,
+    "min_value": 4.0,
+    "max_value": 140.0,
     "all_detected_text": [
       "60",
       "80",
-      "203",
+      "4",
+      "20",
+      "10",
       "140"
     ],
     "all_detected_numbers": [
-      0.0,
+      4.0,
+      10.0,
+      20.0,
       60.0,
       80.0,
-      140.0,
-      203.0
+      140.0
     ]
   },
   {
     "file": "35-031-0002_xx_1_jpg.rf.kDi7SY859P7c3utlorJC.jpg",
-    "unit": null,
+    "unit": "bar",
     "min_value": 0.0,
     "max_value": 5000.0,
     "all_detected_text": [
       "30",
+      "0",
       "150200",
-      "R",
       "1000",
       "100",
       "4000",
       "50",
       "300",
-      "0",
       "350",
-      "HAR",
-      "5000",
+      "BAR",
       "100xkPa",
-      "DSi"
+      "5000"
     ],
     "all_detected_numbers": [
       0.0,
@@ -1048,7 +1046,7 @@
       "54",
       "HERTZ",
       "55",
-      "BIRL"
+      "BYRLM"
     ],
     "all_detected_numbers": [
       46.0,
@@ -1061,29 +1059,34 @@
   },
   {
     "file": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.D9GypfYMF9rD5ZH7DVrg.jpg",
-    "unit": "psi",
+    "unit": null,
     "min_value": 0.0,
     "max_value": 100.0,
     "all_detected_text": [
       "20",
-      "40",
-      "60",
+      "4060",
+      "三",
       "80",
-      "42",
       "0",
-      "66",
+      "3",
+      "2",
+      "4",
+      "5",
+      "6",
       "100",
-      "-",
-      "psi bar",
+      "7",
+      "psibar",
       "VDO"
     ],
     "all_detected_numbers": [
       0.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
       20.0,
-      40.0,
-      42.0,
-      60.0,
-      66.0,
       80.0,
       100.0
     ]
@@ -1103,7 +1106,7 @@
       "140",
       "160",
       "SASHCROFT",
-      "Ps"
+      "DURALI"
     ],
     "all_detected_numbers": [
       0.0,
@@ -1119,7 +1122,7 @@
   },
   {
     "file": "istockphoto-1323074940-1024x1024-jpg-5dhbrdid-ingestion-585c5dcfbb-ltlqg_jpg.rf.FoPcHfKr0pPIINKx4sOl.jpg",
-    "unit": null,
+    "unit": "%",
     "min_value": 0.0,
     "max_value": 100.0,
     "all_detected_text": [
@@ -1129,13 +1132,15 @@
       "DRY",
       "60",
       "20",
+      "DRY",
       "70",
       "10",
+      "VERY",
       "80",
       "90",
-      "0",
       "100",
-      "HUMIDITY"
+      "HUMIDITY",
+      "%"
     ],
     "all_detected_numbers": [
       0.0,
@@ -1154,36 +1159,37 @@
   {
     "file": "istockphoto-1460718388-612x612_jpg.rf.mLyiPu4xEMwo6vWK3EgQ.jpg",
     "unit": "bar",
-    "min_value": 2.0,
+    "min_value": 0.0,
     "max_value": 6.0,
     "all_detected_text": [
       "3",
       "2",
       "5",
-      "04",
       "6",
+      "0",
       "bar"
     ],
     "all_detected_numbers": [
+      0.0,
       2.0,
       3.0,
-      4.0,
       5.0,
       6.0
     ]
   },
   {
     "file": "pressureGauge_14_jpg.rf.xcEPW4tOTkHfEm2gB4cK.jpg",
-    "unit": "mbar",
+    "unit": "v",
     "min_value": 0.0,
     "max_value": 400.0,
     "all_detected_text": [
       "200",
+      "D",
       "300",
       "100",
       "400",
-      "mbar",
-      "A"
+      "V",
+      "mbar"
     ],
     "all_detected_numbers": [
       0.0,
@@ -1196,16 +1202,17 @@
   {
     "file": "pressureGauge_247_jpg.rf.3rocZmLA95HB3XaFMk7B.jpg",
     "unit": "bar",
-    "min_value": -2.0,
-    "max_value": -1.0,
+    "min_value": 2.0,
+    "max_value": 4.0,
     "all_detected_text": [
-      "-2",
-      "-1",
-      "bar"
+      "2",
+      "bar",
+      "4",
+      "KL1.6"
     ],
     "all_detected_numbers": [
-      -2.0,
-      -1.0
+      2.0,
+      4.0
     ]
   },
   {
@@ -1233,120 +1240,142 @@
   {
     "file": "pressureGauge_324_jpg.rf.j1iX3J5d9fdrRjBi5v9S.jpg",
     "unit": "bar",
-    "min_value": null,
-    "max_value": null,
+    "min_value": 0.0,
+    "max_value": 1411.0,
     "all_detected_text": [
+      "1411",
       "2",
-      "0+",
+      "0",
+      "+",
       "bar"
     ],
     "all_detected_numbers": [
-      2.0
+      0.0,
+      2.0,
+      1411.0
     ]
   },
   {
     "file": "pressureGauge_349_jpg.rf.w4VBGK5ello7yc6o5JoL.jpg",
-    "unit": null,
-    "min_value": -10.0,
-    "max_value": 50.0,
+    "unit": "mbar",
+    "min_value": 0.0,
+    "max_value": 60.0,
     "all_detected_text": [
       "30",
       "20",
-      "-10",
+      "40",
+      "10",
       "50",
-      "-",
-      "WIRA",
-      "CL16"
+      "mbar",
+      "60",
+      "WIKAL",
+      "CL1.6"
     ],
     "all_detected_numbers": [
-      -10.0,
+      0.0,
+      10.0,
       20.0,
       30.0,
-      50.0
+      40.0,
+      50.0,
+      60.0
     ]
   },
   {
     "file": "pressureGauge_359_jpg.rf.JmwLYfh25ZHgwUxcBf2O.jpg",
     "unit": "psi",
-    "min_value": -40.0,
-    "max_value": 1100.0,
+    "min_value": 20.0,
+    "max_value": 1000.0,
     "all_detected_text": [
       "600",
-      "800",
+      "400",
       "80",
       "100",
       "60",
       "20",
-      "-40",
+      "40",
+      "1000",
       "140",
       "1000",
-      "-20",
+      "20",
       "MERLIN160",
-      "3",
+      "?",
       "psi",
-      "kPa",
-      "1100"
+      "kPa"
     ],
     "all_detected_numbers": [
-      -40.0,
-      -20.0,
-      3.0,
       20.0,
+      40.0,
       60.0,
       80.0,
       100.0,
       140.0,
+      400.0,
       600.0,
-      800.0,
-      1000.0,
-      1100.0
+      1000.0
     ]
   },
   {
     "file": "pressureGauge_419_jpg.rf.gCHYGGvW7aTu7Qwxp7aC.jpg",
-    "unit": "a",
-    "min_value": 2.0,
-    "max_value": 9.0,
+    "unit": "bar",
+    "min_value": 3.0,
+    "max_value": 10.0,
     "all_detected_text": [
       "5",
-      "2",
+      "3",
+      "6",
+      "KRETEC",
+      "TOOU",
+      "GEM号",
+      "8-",
       "9",
-      "A",
-      "EN837-1",
-      "Ki.16"
+      "四",
+      "6",
+      "10",
+      "103388",
+      "bar",
+      "Ki.1,6",
+      "EN-837-1"
     ],
     "all_detected_numbers": [
-      2.0,
+      3.0,
       5.0,
-      9.0
+      6.0,
+      8.0,
+      9.0,
+      10.0
     ]
   },
   {
     "file": "pressureGauge_53_jpg.rf.MahAkc8TKMrCw1IcDaRV.jpg",
     "unit": "bar",
-    "min_value": 6.0,
+    "min_value": 0.0,
     "max_value": 220.0,
     "all_detected_text": [
       "125",
       "100",
       "150",
       "75",
-      "8",
       "6",
       "175",
       "12",
       "50",
+      "4",
       "14",
       "200",
+      "2",
       "25",
-      "SVIXEn",
+      "SVIHEN",
       "220",
+      "0",
       "bar",
       "psi"
     ],
     "all_detected_numbers": [
+      0.0,
+      2.0,
+      4.0,
       6.0,
-      8.0,
       12.0,
       14.0,
       25.0,
@@ -1363,22 +1392,24 @@
   {
     "file": "pressureGauge_82_jpg.rf.p2RVqKSsFlF8OofX4p9z.jpg",
     "unit": "bar",
-    "min_value": 4.0,
+    "min_value": 0.0,
     "max_value": 10.0,
     "all_detected_text": [
+      "11!1",
       "4",
       "6",
       "EN037-1",
-      "8",
+      "2",
       "bar",
       "10",
       "SUKU",
-      "KL.1.0"
+      "KL1.0"
     ],
     "all_detected_numbers": [
+      0.0,
+      2.0,
       4.0,
       6.0,
-      8.0,
       10.0
     ]
   },
