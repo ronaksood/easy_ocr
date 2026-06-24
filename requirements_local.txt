@@ -1,0 +1,16 @@
+# will work on python 3.12 -> make venv of 3.
+# tesseract needs to be downloaded separately and added to PATH
+easyocr==1.7.2
+opencv-python-headless>=4.8.0,<4.10.0
+numpy>=1.24.0,<2.0.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+pytesseract>=0.3.13
+paddleocr==2.7.3
+paddlepaddle==2.6.2
+rapidocr==3.8.4
+rapidocr-onnxruntime==1.4.4
+scipy<1.13.0
+tifffile<2024.5.10

@@ -1,0 +1,1427 @@
+{
+  "img1.jpg": {
+    "min_value": 0.0,
+    "max_value": 400.0,
+    "gt_reading": 0.0
+  },
+  "img2.jpg": {
+    "min_value": 0.0,
+    "max_value": 400.0,
+    "gt_reading": 0.0
+  },
+  "img3.jpg": {
+    "min_value": 0.0,
+    "max_value": 30.0,
+    "gt_reading": 0.0
+  },
+  "img4.jpg": {
+    "min_value": 0.0,
+    "max_value": 30.0,
+    "gt_reading": 0.0
+  },
+  "img5.jpg": {
+    "min_value": 0.0,
+    "max_value": 120.0,
+    "gt_reading": 42.0
+  },
+  "img6.jpg": {
+    "min_value": 0.0,
+    "max_value": 25.0,
+    "gt_reading": 0.0
+  },
+  "img7.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.56
+  },
+  "img8.jpg": {
+    "min_value": 0.0,
+    "max_value": 60.0,
+    "gt_reading": 32.4
+  },
+  "img9.jpg": {
+    "min_value": 0.0,
+    "max_value": 60.0,
+    "gt_reading": 33.5
+  },
+  "img10.jpg": {
+    "min_value": 0.0,
+    "max_value": 120.0,
+    "gt_reading": 42.0
+  },
+  "img11.jpg": {
+    "min_value": 0.0,
+    "max_value": 7.0,
+    "gt_reading": 4.2
+  },
+  "img12.jpg": {
+    "min_value": 0.0,
+    "max_value": 120.0,
+    "gt_reading": 42.0
+  },
+  "img13.jpg": {
+    "min_value": 0.0,
+    "max_value": 120.0,
+    "gt_reading": 42.0
+  },
+  "img14.jpg": {
+    "min_value": 0.0,
+    "max_value": 120.0,
+    "gt_reading": 43.0
+  },
+  "img15.jpg": {
+    "min_value": 0.0,
+    "max_value": 120.0,
+    "gt_reading": 43.0
+  },
+  "img16.jpg": {
+    "min_value": 0.0,
+    "max_value": 7.0,
+    "gt_reading": 4.2
+  },
+  "img17.jpg": {
+    "min_value": 0.0,
+    "max_value": 1000.0,
+    "gt_reading": 0.0
+  },
+  "img18.jpg": {
+    "min_value": 0.0,
+    "max_value": 200.0,
+    "gt_reading": 68.5
+  },
+  "img19.jpg": {
+    "min_value": 0.0,
+    "max_value": 60.0,
+    "gt_reading": 0.0
+  },
+  "img20.jpg": {
+    "min_value": 1000.0,
+    "max_value": 28000.0,
+    "gt_reading": 9500.0
+  },
+  "img21.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 24.0
+  },
+  "img22.jpg": {
+    "min_value": 0.0,
+    "max_value": 25.0,
+    "gt_reading": 0.0
+  },
+  "img23.jpg": {
+    "min_value": 0.0,
+    "max_value": 80.0,
+    "gt_reading": 33.5
+  },
+  "img24.jpg": {
+    "min_value": 0.0,
+    "max_value": 80.0,
+    "gt_reading": 35.5
+  },
+  "img25.jpg": {
+    "min_value": 0.0,
+    "max_value": 600.0,
+    "gt_reading": 109.0
+  },
+  "img26.jpg": {
+    "min_value": 0.0,
+    "max_value": 120.0,
+    "gt_reading": 43.5
+  },
+  "img27.jpg": {
+    "min_value": 0.0,
+    "max_value": 160.0,
+    "gt_reading": 54.0
+  },
+  "img28.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 22.5
+  },
+  "img29.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 150.0
+  },
+  "img30.jpg": {
+    "min_value": 0.0,
+    "max_value": 160.0,
+    "gt_reading": 149.0
+  },
+  "img31.jpg": {
+    "min_value": 0.0,
+    "max_value": 160.0,
+    "gt_reading": 35.0
+  },
+  "img32.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 5.4
+  },
+  "img33.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 6.2
+  },
+  "img34.jpg": {
+    "min_value": 0.0,
+    "max_value": 800.0,
+    "gt_reading": 300.0
+  },
+  "img35.jpg": {
+    "min_value": -1.0,
+    "max_value": 3.0,
+    "gt_reading": 1.23
+  },
+  "img36.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 5.4
+  },
+  "img37.jpg": {
+    "min_value": -1.0,
+    "max_value": 1.5,
+    "gt_reading": -0.8
+  },
+  "img38.jpg": {
+    "min_value": 0.0,
+    "max_value": 4.0,
+    "gt_reading": 1.4
+  },
+  "img39.jpg": {
+    "min_value": 0.0,
+    "max_value": 6.0,
+    "gt_reading": 5.6
+  },
+  "img40.jpg": {
+    "min_value": 0.0,
+    "max_value": 60.0,
+    "gt_reading": 15.0
+  },
+  "img41.jpg": {
+    "min_value": 0.0,
+    "max_value": 60.0,
+    "gt_reading": 48.0
+  },
+  "img42.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 4.5
+  },
+  "img43.jpg": {
+    "min_value": 32.0,
+    "max_value": 570.0,
+    "gt_reading": 80.0
+  },
+  "img44.jpg": {
+    "min_value": 32.0,
+    "max_value": 570.0,
+    "gt_reading": 80.0
+  },
+  "img45.jpg": {
+    "min_value": 0.0,
+    "max_value": 500.0,
+    "gt_reading": 188.0
+  },
+  "img46.jpg": {
+    "min_value": 0.0,
+    "max_value": 0.6,
+    "gt_reading": 0.48
+  },
+  "img47.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 54.0
+  },
+  "img48.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 0.0
+  },
+  "img49.jpg": {
+    "min_value": 0.0,
+    "max_value": 0.6,
+    "gt_reading": 0.085
+  },
+  "img50.jpg": {
+    "min_value": 0.0,
+    "max_value": 140.0,
+    "gt_reading": 16.0
+  },
+  "img51.jpg": {
+    "min_value": 0.0,
+    "max_value": 140.0,
+    "gt_reading": 16.0
+  },
+  "img52.jpg": {
+    "min_value": 0.0,
+    "max_value": 5000.0,
+    "gt_reading": 0.0
+  },
+  "img53.jpg": {
+    "min_value": 0.0,
+    "max_value": 40.0,
+    "gt_reading": 6.0
+  },
+  "img54.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 0.0
+  },
+  "img55.jpg": {
+    "min_value": 0.0,
+    "max_value": 150.0,
+    "gt_reading": 0.0
+  },
+  "img56.jpg": {
+    "min_value": -10.0,
+    "max_value": 130.0,
+    "gt_reading": 69.0
+  },
+  "img57.jpg": {
+    "min_value": 0.0,
+    "max_value": 7000.0,
+    "gt_reading": 200.0
+  },
+  "img58.jpg": {
+    "min_value": 0.0,
+    "max_value": 40.0,
+    "gt_reading": 22.0
+  },
+  "img59.jpg": {
+    "min_value": 0.0,
+    "max_value": 6.0,
+    "gt_reading": 3.9
+  },
+  "img60.jpg": {
+    "min_value": 0.0,
+    "max_value": 4000.0,
+    "gt_reading": 0.0
+  },
+  "img61.jpg": {
+    "min_value": 0.0,
+    "max_value": 15.0,
+    "gt_reading": 0.5
+  },
+  "img62.jpg": {
+    "min_value": 0.0,
+    "max_value": 140.0,
+    "gt_reading": 125.0
+  },
+  "img63.jpg": {
+    "min_value": 0.0,
+    "max_value": 140.0,
+    "gt_reading": 125.0
+  },
+  "img64.jpg": {
+    "min_value": 0.0,
+    "max_value": 140.0,
+    "gt_reading": 125.0
+  },
+  "img65.jpg": {
+    "min_value": 0.0,
+    "max_value": 150.0,
+    "gt_reading": 55.0
+  },
+  "img66.jpg": {
+    "min_value": 0.0,
+    "max_value": 12.0,
+    "gt_reading": 0.0
+  },
+  "img67.jpg": {
+    "min_value": 0.0,
+    "max_value": 700.0,
+    "gt_reading": 5.0
+  },
+  "img68.jpg": {
+    "min_value": 0.0,
+    "max_value": 4.0,
+    "gt_reading": 0.0
+  },
+  "img69.jpg": {
+    "min_value": -33.0,
+    "max_value": 43.0,
+    "gt_reading": 27.0
+  },
+  "img70.jpg": {
+    "min_value": 0.0,
+    "max_value": 12.0,
+    "gt_reading": 0.4
+  },
+  "img71.jpg": {
+    "min_value": 0.0,
+    "max_value": 15.0,
+    "gt_reading": 0.0
+  },
+  "img72.jpg": {
+    "min_value": 0.0,
+    "max_value": 550.0,
+    "gt_reading": 310.0
+  },
+  "img73.jpg": {
+    "min_value": 0.0,
+    "max_value": 80.0,
+    "gt_reading": 26.0
+  },
+  "img74.jpg": {
+    "min_value": 0.0,
+    "max_value": 120.0,
+    "gt_reading": 28.0
+  },
+  "img75.jpg": {
+    "min_value": 2.0,
+    "max_value": 15.0,
+    "gt_reading": 2.0
+  },
+  "img76.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 8.7
+  },
+  "img77.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 8.3
+  },
+  "img78.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 4.9
+  },
+  "img79.jpg": {
+    "min_value": 0.0,
+    "max_value": 30.0,
+    "gt_reading": 0.0
+  },
+  "img80.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 24.0
+  },
+  "img81.jpg": {
+    "min_value": 0.0,
+    "max_value": 15000.0,
+    "gt_reading": 0.0
+  },
+  "img82.jpg": {
+    "min_value": 0.0,
+    "max_value": 30.0,
+    "gt_reading": 0.0
+  },
+  "img83.jpg": {
+    "min_value": 0.0,
+    "max_value": 30.0,
+    "gt_reading": 0.0
+  },
+  "img84.jpg": {
+    "min_value": -30.0,
+    "max_value": 300.0,
+    "gt_reading": 0.0
+  },
+  "img85.jpg": {
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "gt_reading": 0.0
+  },
+  "img86.jpg": {
+    "min_value": 0.0,
+    "max_value": 16.0,
+    "gt_reading": 6.4
+  },
+  "img87.jpg": {
+    "min_value": 0.0,
+    "max_value": 50.0,
+    "gt_reading": 26.5
+  },
+  "img88.jpg": {
+    "min_value": 0.0,
+    "max_value": 200.0,
+    "gt_reading": 108.0
+  },
+  "img89.jpg": {
+    "min_value": -30.0,
+    "max_value": 30.0,
+    "gt_reading": 0.0
+  },
+  "img90.jpg": {
+    "min_value": 30.0,
+    "max_value": 750.0,
+    "gt_reading": 350.0
+  },
+  "img91.jpg": {
+    "min_value": -30.0,
+    "max_value": 30.0,
+    "gt_reading": 0.0
+  },
+  "img92.jpg": {
+    "min_value": 0.0,
+    "max_value": 700.0,
+    "gt_reading": 0.0
+  },
+  "img93.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 6.0
+  },
+  "img94.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 0.0
+  },
+  "img95.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 38.0
+  },
+  "img96.jpg": {
+    "min_value": 10.0,
+    "max_value": 300.0,
+    "gt_reading": 35.0
+  },
+  "img97.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.2
+  },
+  "img98.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.3
+  },
+  "img99.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.3
+  },
+  "img100.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.6,
+    "gt_reading": 0.2
+  },
+  "img101.jpg": {
+    "min_value": 0.0,
+    "max_value": 0.6,
+    "gt_reading": 0.28
+  },
+  "img102.jpg": {
+    "min_value": 0.0,
+    "max_value": 150.0,
+    "gt_reading": 0.0
+  },
+  "img103.jpg": {
+    "min_value": 0.0,
+    "max_value": 200.0,
+    "gt_reading": 160.0
+  },
+  "img104.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 25.0
+  },
+  "img105.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 21.0
+  },
+  "img106.jpg": {
+    "min_value": 0.0,
+    "max_value": 50.0,
+    "gt_reading": 28.0
+  },
+  "img107.jpg": {
+    "min_value": 0.0,
+    "max_value": 50.0,
+    "gt_reading": 28.0
+  },
+  "img108.jpg": {
+    "min_value": 0.0,
+    "max_value": 0.7,
+    "gt_reading": 0.1
+  },
+  "img109.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 4.0
+  },
+  "img110.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 4.0
+  },
+  "img111.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 4.0
+  },
+  "img112.jpg": {
+    "min_value": 0.0,
+    "max_value": 180.0,
+    "gt_reading": 113.0
+  },
+  "img113.jpg": {
+    "min_value": 0.0,
+    "max_value": 180.0,
+    "gt_reading": 113.0
+  },
+  "img114.jpg": {
+    "min_value": 0.0,
+    "max_value": 180.0,
+    "gt_reading": 113.0
+  },
+  "img115.jpg": {
+    "min_value": 0.0,
+    "max_value": 180.0,
+    "gt_reading": 113.0
+  },
+  "img116.jpg": {
+    "min_value": 0.0,
+    "max_value": 180.0,
+    "gt_reading": 113.0
+  },
+  "img117.jpg": {
+    "min_value": 0.0,
+    "max_value": 180.0,
+    "gt_reading": 113.0
+  },
+  "img118.jpg": {
+    "min_value": 0.0,
+    "max_value": 120.0,
+    "gt_reading": 15.8
+  },
+  "img119.jpg": {
+    "min_value": 0.0,
+    "max_value": 3000.0,
+    "gt_reading": 1400.0
+  },
+  "img120.jpg": {
+    "min_value": 0.0,
+    "max_value": 3000.0,
+    "gt_reading": 1400.0
+  },
+  "img121.jpg": {
+    "min_value": 0.0,
+    "max_value": 3000.0,
+    "gt_reading": 1400.0
+  },
+  "img122.jpg": {
+    "min_value": 0.0,
+    "max_value": 4.0,
+    "gt_reading": 1.5
+  },
+  "img123.jpg": {
+    "min_value": 0.0,
+    "max_value": 60.0,
+    "gt_reading": 25.0
+  },
+  "img124.jpg": {
+    "min_value": -125.0,
+    "max_value": 125.0,
+    "gt_reading": 5.0
+  },
+  "img125.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.46
+  },
+  "img126.jpg": {
+    "min_value": 0.0,
+    "max_value": 2.5,
+    "gt_reading": 0.15
+  },
+  "img127.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.29
+  },
+  "img128.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.29
+  },
+  "img129.jpg": {
+    "min_value": 0.0,
+    "max_value": 5000.0,
+    "gt_reading": 0.0
+  },
+  "img130.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 3.8
+  },
+  "img131.jpg": {
+    "min_value": -0.1,
+    "max_value": 0.15,
+    "gt_reading": -0.005
+  },
+  "img132.jpg": {
+    "min_value": -0.1,
+    "max_value": 0.15,
+    "gt_reading": -0.005
+  },
+  "img133.jpg": {
+    "min_value": 0.0,
+    "max_value": 150.0,
+    "gt_reading": 26.0
+  },
+  "img134.jpg": {
+    "min_value": 0.0,
+    "max_value": 600.0,
+    "gt_reading": 20.0
+  },
+  "img135.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 23.0
+  },
+  "img136.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 23.0
+  },
+  "img137.jpg": {
+    "min_value": 0.0,
+    "max_value": 120.0,
+    "gt_reading": 32.0
+  },
+  "img138.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 24.0
+  },
+  "img139.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 24.0
+  },
+  "img140.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 0.0
+  },
+  "img141.jpg": {
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "gt_reading": 40.0
+  },
+  "img142.jpg": {
+    "min_value": 0.0,
+    "max_value": 2000.0,
+    "gt_reading": 40.0
+  },
+  "img143.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 57.8
+  },
+  "img144.jpg": {
+    "min_value": 0.0,
+    "max_value": 70.0,
+    "gt_reading": 5.0
+  },
+  "img145.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.76
+  },
+  "img146.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.76
+  },
+  "img147.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 100.0
+  },
+  "img148.jpg": {
+    "min_value": 0.0,
+    "max_value": 160.0,
+    "gt_reading": 19.0
+  },
+  "img149.jpg": {
+    "min_value": 0.0,
+    "max_value": 160.0,
+    "gt_reading": 19.0
+  },
+  "img150.jpg": {
+    "min_value": 0.0,
+    "max_value": 160.0,
+    "gt_reading": 19.0
+  },
+  "img151.jpg": {
+    "min_value": 0.0,
+    "max_value": 1500.0,
+    "gt_reading": 60.0
+  },
+  "img152.jpg": {
+    "min_value": 0.0,
+    "max_value": 2.0,
+    "gt_reading": 0.0
+  },
+  "img153.jpg": {
+    "min_value": 0.0,
+    "max_value": 2.0,
+    "gt_reading": 0.0
+  },
+  "img154.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 63.0
+  },
+  "img155.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 63.0
+  },
+  "img156.jpg": {
+    "min_value": 0.0,
+    "max_value": 40.0,
+    "gt_reading": 11.8
+  },
+  "img157.jpg": {
+    "min_value": 0.0,
+    "max_value": 620.0,
+    "gt_reading": 0.0
+  },
+  "img158.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 60.0
+  },
+  "img159.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 0.0
+  },
+  "img160.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 0.0
+  },
+  "img161.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 48.0
+  },
+  "img162.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 48.0
+  },
+  "img163.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 32.0
+  },
+  "img164.jpg": {
+    "min_value": 0.0,
+    "max_value": 16.0,
+    "gt_reading": 2.9
+  },
+  "img165.jpg": {
+    "min_value": 0.0,
+    "max_value": 150.0,
+    "gt_reading": 30.0
+  },
+  "img166.jpg": {
+    "min_value": 0.0,
+    "max_value": 0.6,
+    "gt_reading": 0.085
+  },
+  "img167.jpg": {
+    "min_value": 0.0,
+    "max_value": 0.6,
+    "gt_reading": 0.085
+  },
+  "img168.jpg": {
+    "min_value": 0.5,
+    "max_value": 7.5,
+    "gt_reading": 0.5
+  },
+  "img169.jpg": {
+    "min_value": 0.0,
+    "max_value": 400.0,
+    "gt_reading": 174.0
+  },
+  "img170.jpg": {
+    "min_value": 0.0,
+    "max_value": 400.0,
+    "gt_reading": 174.0
+  },
+  "img171.jpg": {
+    "min_value": 0.0,
+    "max_value": 400.0,
+    "gt_reading": 174.0
+  },
+  "img172.jpg": {
+    "min_value": 0.0,
+    "max_value": 1100.0,
+    "gt_reading": 270.0
+  },
+  "img173.jpg": {
+    "min_value": 0.0,
+    "max_value": 1100.0,
+    "gt_reading": 270.0
+  },
+  "img174.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.6,
+    "gt_reading": 0.6
+  },
+  "img175.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.6,
+    "gt_reading": 0.6
+  },
+  "img176.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.6,
+    "gt_reading": 0.625
+  },
+  "img177.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.6,
+    "gt_reading": 1.1
+  },
+  "img178.jpg": {
+    "min_value": 0.0,
+    "max_value": 25.0,
+    "gt_reading": 6.4
+  },
+  "img179.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 2.8
+  },
+  "img180.jpg": {
+    "min_value": 0.0,
+    "max_value": 25.0,
+    "gt_reading": 6.0
+  },
+  "img181.jpg": {
+    "min_value": 0.0,
+    "max_value": 25.0,
+    "gt_reading": 6.3
+  },
+  "img182.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.6,
+    "gt_reading": 0.62
+  },
+  "img183.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 2.8
+  },
+  "img184.jpg": {
+    "min_value": 0.0,
+    "max_value": 25.0,
+    "gt_reading": 6.3
+  },
+  "img185.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.6,
+    "gt_reading": 1.1
+  },
+  "img186.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.6,
+    "gt_reading": 0.63
+  },
+  "img187.jpg": {
+    "min_value": 0.0,
+    "max_value": 25.0,
+    "gt_reading": 6.2
+  },
+  "img188.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 0.0
+  },
+  "img189.jpg": {
+    "min_value": 0.0,
+    "max_value": 60.0,
+    "gt_reading": 10.5
+  },
+  "img190.jpg": {
+    "min_value": 0.0,
+    "max_value": 60.0,
+    "gt_reading": 10.5
+  },
+  "img191.jpg": {
+    "min_value": 0.0,
+    "max_value": 60.0,
+    "gt_reading": 10.0
+  },
+  "img192.jpg": {
+    "min_value": 0.0,
+    "max_value": 60.0,
+    "gt_reading": 10.0
+  },
+  "img193.jpg": {
+    "min_value": 32.0,
+    "max_value": 570.0,
+    "gt_reading": 66.0
+  },
+  "img194.jpg": {
+    "min_value": 50.0,
+    "max_value": 650.0,
+    "gt_reading": 625.0
+  },
+  "img195.jpg": {
+    "min_value": -0.1,
+    "max_value": 0.25,
+    "gt_reading": 0.0
+  },
+  "img196.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 0.0
+  },
+  "img197.jpg": {
+    "min_value": 0.0,
+    "max_value": 4.0,
+    "gt_reading": 1.25
+  },
+  "img198.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.0
+  },
+  "img199.jpg": {
+    "min_value": -1.0,
+    "max_value": 5.0,
+    "gt_reading": 0.1
+  },
+  "img200.jpg": {
+    "min_value": 30.0,
+    "max_value": 750.0,
+    "gt_reading": 350.0
+  },
+  "img201.jpg": {
+    "min_value": 30.0,
+    "max_value": 750.0,
+    "gt_reading": 350.0
+  },
+  "img202.jpg": {
+    "min_value": 0.0,
+    "max_value": 30.0,
+    "gt_reading": 0.0
+  },
+  "img203.jpg": {
+    "min_value": 0.0,
+    "max_value": 200.0,
+    "gt_reading": 100.0
+  },
+  "img204.jpg": {
+    "min_value": -30.0,
+    "max_value": 21.0,
+    "gt_reading": 0.0
+  },
+  "img205.jpg": {
+    "min_value": 0.0,
+    "max_value": 150.0,
+    "gt_reading": 0.0
+  },
+  "img206.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.44
+  },
+  "img207.jpg": {
+    "min_value": 0.0,
+    "max_value": 3000.0,
+    "gt_reading": 0.0
+  },
+  "img208.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 0.0
+  },
+  "img209.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.44
+  },
+  "img210.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.44
+  },
+  "img211.jpg": {
+    "min_value": 0.0,
+    "max_value": 160.0,
+    "gt_reading": 0.0
+  },
+  "img212.jpg": {
+    "min_value": 0.0,
+    "max_value": 160.0,
+    "gt_reading": 0.0
+  },
+  "img213.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 0.0
+  },
+  "img214.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 0.0
+  },
+  "img215.jpg": {
+    "min_value": -1.0,
+    "max_value": 1.5,
+    "gt_reading": 0.0
+  },
+  "img216.jpg": {
+    "min_value": 0.0,
+    "max_value": 200.0,
+    "gt_reading": 0.0
+  },
+  "img217.jpg": {
+    "min_value": 0.0,
+    "max_value": 7000.0,
+    "gt_reading": 0.0
+  },
+  "img218.jpg": {
+    "min_value": 0.0,
+    "max_value": 6000.0,
+    "gt_reading": 0.0
+  },
+  "img219.jpg": {
+    "min_value": 0.0,
+    "max_value": 6000.0,
+    "gt_reading": 0.0
+  },
+  "img220.jpg": {
+    "min_value": 3.0,
+    "max_value": 100.0,
+    "gt_reading": 3.0
+  },
+  "img221.jpg": {
+    "min_value": -30.0,
+    "max_value": 15.0,
+    "gt_reading": 0.0
+  },
+  "img222.jpg": {
+    "min_value": 0.0,
+    "max_value": 5000.0,
+    "gt_reading": 0.0
+  },
+  "img223.jpg": {
+    "min_value": 0.0,
+    "max_value": 5000.0,
+    "gt_reading": 0.0
+  },
+  "img224.jpg": {
+    "min_value": 0.0,
+    "max_value": 2.0,
+    "gt_reading": 0.0
+  },
+  "img225.jpg": {
+    "min_value": 30.0,
+    "max_value": 750.0,
+    "gt_reading": 350.0
+  },
+  "img226.jpg": {
+    "min_value": 30.0,
+    "max_value": 750.0,
+    "gt_reading": 350.0
+  },
+  "img227.jpg": {
+    "min_value": 0.0,
+    "max_value": 3.0,
+    "gt_reading": 0.0
+  },
+  "img228.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 0.0
+  },
+  "img229.jpg": {
+    "min_value": 0.0,
+    "max_value": 80.0,
+    "gt_reading": 30.0
+  },
+  "img230.jpg": {
+    "min_value": 0.0,
+    "max_value": 80.0,
+    "gt_reading": 30.0
+  },
+  "img231.jpg": {
+    "min_value": 0.0,
+    "max_value": 400.0,
+    "gt_reading": 0.0
+  },
+  "img232.jpg": {
+    "min_value": 0.0,
+    "max_value": 150.0,
+    "gt_reading": 10.0
+  },
+  "img233.jpg": {
+    "min_value": 0.0,
+    "max_value": 12.0,
+    "gt_reading": 0.0
+  },
+  "img234.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.44
+  },
+  "img235.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 0.0
+  },
+  "img236.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 0.0
+  },
+  "img237.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 0.0
+  },
+  "img238.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 0.0
+  },
+  "img239.jpg": {
+    "min_value": 1.0,
+    "max_value": 20.0,
+    "gt_reading": 9.8
+  },
+  "img240.jpg": {
+    "min_value": 1.0,
+    "max_value": 20.0,
+    "gt_reading": 9.8
+  },
+  "img241.jpg": {
+    "min_value": 1.0,
+    "max_value": 20.0,
+    "gt_reading": 9.8
+  },
+  "img242.jpg": {
+    "min_value": 0.0,
+    "max_value": 2.5,
+    "gt_reading": 0.75
+  },
+  "img243.jpg": {
+    "min_value": -1.0,
+    "max_value": 1.5,
+    "gt_reading": 0.0
+  },
+  "img244.jpg": {
+    "min_value": -1.0,
+    "max_value": 5.0,
+    "gt_reading": 2.25
+  },
+  "img245.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 60.0
+  },
+  "img246.jpg": {
+    "min_value": 0.0,
+    "max_value": 200.0,
+    "gt_reading": 60.0
+  },
+  "img247.jpg": {
+    "min_value": 0.0,
+    "max_value": 15.0,
+    "gt_reading": 0.0
+  },
+  "img248.jpg": {
+    "min_value": 0.0,
+    "max_value": 15.0,
+    "gt_reading": 0.0
+  },
+  "img249.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 60.0
+  },
+  "img250.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 60.0
+  },
+  "img251.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 0.0
+  },
+  "img252.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 0.0
+  },
+  "img253.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 0.0
+  },
+  "img254.jpg": {
+    "min_value": 0.0,
+    "max_value": 1000.0,
+    "gt_reading": 1000.0
+  },
+  "img255.jpg": {
+    "min_value": 0.0,
+    "max_value": 600.0,
+    "gt_reading": 0.0
+  },
+  "img256.jpg": {
+    "min_value": 0.0,
+    "max_value": 6.0,
+    "gt_reading": 1.0
+  },
+  "img257.jpg": {
+    "min_value": 0.0,
+    "max_value": 200.0,
+    "gt_reading": 0.0
+  },
+  "img258.jpg": {
+    "min_value": 0.0,
+    "max_value": 200.0,
+    "gt_reading": 0.0
+  },
+  "img259.jpg": {
+    "min_value": 0.0,
+    "max_value": 5000.0,
+    "gt_reading": 0.0
+  },
+  "img260.jpg": {
+    "min_value": 0.0,
+    "max_value": 220.0,
+    "gt_reading": 0.0
+  },
+  "img261.jpg": {
+    "min_value": 0.0,
+    "max_value": 6.0,
+    "gt_reading": 0.0
+  },
+  "img262.jpg": {
+    "min_value": -1.0,
+    "max_value": 5.0,
+    "gt_reading": 2.25
+  },
+  "img263.jpg": {
+    "min_value": 0.5,
+    "max_value": 7.5,
+    "gt_reading": 0.5
+  },
+  "img264.jpg": {
+    "min_value": 0.5,
+    "max_value": 7.5,
+    "gt_reading": 0.5
+  },
+  "img265.jpg": {
+    "min_value": 0.0,
+    "max_value": 180.0,
+    "gt_reading": 0.0
+  },
+  "img266.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 0.0
+  },
+  "img267.jpg": {
+    "min_value": 0.0,
+    "max_value": 400.0,
+    "gt_reading": 5.0
+  },
+  "img268.jpg": {
+    "min_value": 0.0,
+    "max_value": 250.0,
+    "gt_reading": 60.0
+  },
+  "img269.jpg": {
+    "min_value": 0.0,
+    "max_value": 1100.0,
+    "gt_reading": 0.0
+  },
+  "img270.jpg": {
+    "min_value": 0.0,
+    "max_value": 160.0,
+    "gt_reading": 0.0
+  },
+  "img271.jpg": {
+    "min_value": 0.0,
+    "max_value": 300.0,
+    "gt_reading": 0.0
+  },
+  "img272.jpg": {
+    "min_value": 0.0,
+    "max_value": 160.0,
+    "gt_reading": 24.0
+  },
+  "img273.jpg": {
+    "min_value": 0.0,
+    "max_value": 60.0,
+    "gt_reading": 0.0
+  },
+  "img274.jpg": {
+    "min_value": 0.0,
+    "max_value": 1.0,
+    "gt_reading": 0.95
+  },
+  "img275.jpg": {
+    "min_value": -1.0,
+    "max_value": 9.0,
+    "gt_reading": 0.0
+  },
+  "img276.jpg": {
+    "min_value": 0.0,
+    "max_value": 40.0,
+    "gt_reading": 0.0
+  },
+  "img277.jpg": {
+    "min_value": 0.0,
+    "max_value": 100.0,
+    "gt_reading": 48.0
+  },
+  "img278.jpg": {
+    "min_value": 0.0,
+    "max_value": 3000.0,
+    "gt_reading": 0.0
+  },
+  "img279.jpg": {
+    "min_value": 0.0,
+    "max_value": 30.0,
+    "gt_reading": 0.0
+  },
+  "img280.jpg": {
+    "min_value": 0.0,
+    "max_value": 60.0,
+    "gt_reading": 0.0
+  },
+  "img281.jpg": {
+    "min_value": 0.0,
+    "max_value": 200.0,
+    "gt_reading": 0.0
+  },
+  "img282.jpg": {
+    "min_value": 0.0,
+    "max_value": 500.0,
+    "gt_reading": 50.0
+  },
+  "img283.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 1.0
+  },
+  "img284.jpg": {
+    "min_value": 0.0,
+    "max_value": 10.0,
+    "gt_reading": 2.25
+  },
+  "img285.jpg": {
+    "min_value": 30.0,
+    "max_value": 300.0,
+    "gt_reading": 30.0
+  }
+}
