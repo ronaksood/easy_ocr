@@ -157,3 +157,49 @@ class TestProcessImageWithKeypoints:
 
         # Should not crash, and should have valid results.
         assert mock_engine.read_image_detailed.call_count == 2
+
+    @patch.object(OcrService, "__init__", lambda self: None)
+    @patch("gauge_metadata.services.ocr_service.ENABLE_OCR_DEBUG_VISUALIZATION", True)
+    @patch("gauge_metadata.services.ocr_service.save_debug_artifacts")
+    def test_debug_visualization_flow(self, mock_save_debug: MagicMock) -> None:
+        """Verify that debug visualization is called when enabled."""
+        service = OcrService()
+
+        mock_engine = MagicMock()
+        min_detections = [_make_detection("10", cx=10.0, cy=10.0)]
+        max_detections = [_make_detection("100", cx=15.0, cy=15.0)]
+        mock_engine.read_image_detailed.side_effect = [
+            min_detections,
+            max_detections,
+        ]
+        service._engines = {"easy_ocr": mock_engine}
+
+        result = service.process_image_with_keypoints(
+            engine="easy_ocr",
+            image=self._make_image(),
+            center=(160.0, 160.0),
+            min_point=(80.0, 200.0),
+            max_point=(240.0, 200.0),
+            image_name="test_gauge.jpg",
+            gt_min=10.0,
+            gt_max=100.0,
+        )
+
+        assert result.min_value == 10.0
+        assert result.max_value == 100.0
+
+        # save_debug_artifacts should have been called once
+        mock_save_debug.assert_called_once()
+
+        # Verify the arguments passed to save_debug_artifacts
+        called_args, _ = mock_save_debug.call_args
+        img_arg = called_args[0]
+        debug_info_arg = called_args[1]
+
+        assert isinstance(img_arg, np.ndarray)
+        assert debug_info_arg.image_name == "test_gauge.jpg"
+        assert debug_info_arg.min_debug.ground_truth == 10.0
+        assert debug_info_arg.max_debug.ground_truth == 100.0
+        assert debug_info_arg.min_debug.selected_candidate.value == 10.0
+        assert debug_info_arg.max_debug.selected_candidate.value == 100.0
+

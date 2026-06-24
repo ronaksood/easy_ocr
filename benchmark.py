@@ -231,6 +231,9 @@ def run_benchmark(
                 min_point=min_point,
                 max_point=max_point,
                 crop_ratio=crop_ratio,
+                image_name=img_name,
+                gt_min=result.gt_min,
+                gt_max=result.gt_max,
             )
             result.pred_min = response.min_value
             result.pred_max = response.max_value

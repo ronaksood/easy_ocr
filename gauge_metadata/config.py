@@ -46,3 +46,20 @@ GROUND_TRUTH_PATH: str = os.getenv(
     "GAUGE_GT_PATH", "data/min_max_reading.json"
 )
 """Path to the JSON file with ground-truth min/max/reading values."""
+
+
+# ---------------------------------------------------------------------------
+# Debug visualization
+# ---------------------------------------------------------------------------
+
+ENABLE_OCR_DEBUG_VISUALIZATION: bool = (
+    os.getenv("ENABLE_OCR_DEBUG_VISUALIZATION", "false").lower() == "true"
+)
+"""Master switch for all debug visualization output.
+
+When False, every public function in debug_visualizer is a silent no-op.
+"""
+
+DEBUG_OUTPUT_DIR: str = os.getenv("OCR_DEBUG_OUTPUT_DIR", "debug_output")
+"""Root directory for all debug artifacts."""
+

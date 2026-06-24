@@ -3,17 +3,30 @@ import logging
 import cv2
 import numpy as np
 
-from gauge_metadata.config import CROP_RATIO
+from gauge_metadata.config import (
+    CROP_RATIO,
+    ENABLE_OCR_DEBUG_VISUALIZATION,
+)
 from gauge_metadata.schemas.metadata import GaugeMetadataResponse
 from gauge_metadata.schemas.ocr_detection import OcrDetection
 from gauge_metadata.services.easy_ocr_service import EasyOcrService
-from gauge_metadata.services.paddle_ocr_service import PaddleOcrService
 from gauge_metadata.services.rapid_ocr_service import RapidOcrService
 from gauge_metadata.services.tesseract_ocr_service import TesseractOcrService
 from gauge_metadata.utils.candidate_selector import extract_value_from_candidates
 from gauge_metadata.utils.cropper import CropResult, Point, crop_around_keypoint
+from gauge_metadata.utils.debug_visualizer import (
+    ImageDebugInfo,
+    collect_keypoint_debug,
+    save_debug_artifacts,
+)
 from gauge_metadata.utils.numbers import extract_numbers, infer_zero
 from gauge_metadata.utils.units import match_unit
+
+try:
+    from gauge_metadata.services.paddle_ocr_service import PaddleOcrService
+    _PADDLE_AVAILABLE = True
+except (ImportError, Exception):
+    _PADDLE_AVAILABLE = False
 
 logger = logging.getLogger(__name__)
 
@@ -28,10 +41,13 @@ class OcrService:
     def __init__(self) -> None:
         self._engines = {
             "easy_ocr": EasyOcrService(),
-            "paddle_ocr": PaddleOcrService(),
             "rapid_ocr": RapidOcrService(),
             "tesseract_ocr": TesseractOcrService(),
         }
+        if _PADDLE_AVAILABLE:
+            self._engines["paddle_ocr"] = PaddleOcrService()
+        else:
+            logger.warning("PaddleOCR unavailable — paddle_ocr engine disabled")
 
     def process_image(
         self,
@@ -78,7 +94,8 @@ class OcrService:
         center: Point,
         crop_ratio: float,
         label: str,
-    ) -> float | None:
+        ground_truth: float | None = None,
+    ) -> tuple[float | None, "KeypointDebugInfo" | None]:
         """Run the crop → OCR → select pipeline for a single keypoint.
 
         Args:
@@ -88,9 +105,10 @@ class OcrService:
             center: The gauge centre point.
             crop_ratio: Fraction of gauge radius used as crop half-size.
             label: Human-readable label for logging (``"min"`` or ``"max"``).
+            ground_truth: Ground truth value for verification in debug mode.
 
         Returns:
-            The extracted numeric value, or ``None`` if extraction fails.
+            Tuple of (extracted numeric value, KeypointDebugInfo or None).
         """
         logger.info(
             "Extracting %s value: keypoint=(%.1f, %.1f), center=(%.1f, %.1f)",
@@ -112,7 +130,7 @@ class OcrService:
                 keypoint.x,
                 keypoint.y,
             )
-            return None
+            return None, None
 
         engine = self._engines[engine_name]
         detections: list[OcrDetection] = engine.read_image_detailed(
@@ -140,7 +158,19 @@ class OcrService:
         else:
             logger.info("%s value extracted: %.4f", label.capitalize(), value)
 
-        return value
+        debug_info = None
+        if ENABLE_OCR_DEBUG_VISUALIZATION:
+            debug_info = collect_keypoint_debug(
+                label=label,
+                keypoint=keypoint,
+                crop_result=crop_result,
+                all_detections=detections,
+                ground_truth=ground_truth,
+                offset_x=crop_result.offset_x,
+                offset_y=crop_result.offset_y,
+            )
+
+        return value, debug_info
 
     def process_image_with_keypoints(
         self,
@@ -150,6 +180,9 @@ class OcrService:
         min_point: tuple[float, float],
         max_point: tuple[float, float],
         crop_ratio: float = CROP_RATIO,
+        image_name: str | None = None,
+        gt_min: float | None = None,
+        gt_max: float | None = None,
     ) -> GaugeMetadataResponse:
         """Process a gauge image using keypoint-based dynamic cropping.
 
@@ -166,6 +199,9 @@ class OcrService:
             min_point: ``(x, y)`` location of the minimum scale label.
             max_point: ``(x, y)`` location of the maximum scale label.
             crop_ratio: Fraction of gauge radius used as crop half-size.
+            image_name: Optional name/path of the image for logging/debugging.
+            gt_min: Optional ground-truth min value for debug visualization.
+            gt_max: Optional ground-truth max value for debug visualization.
 
         Returns:
             :class:`GaugeMetadataResponse` with extracted min/max values.
@@ -203,22 +239,24 @@ class OcrService:
             img.shape[0],
         )
 
-        min_value = self._extract_value_at_keypoint(
+        min_value, min_debug = self._extract_value_at_keypoint(
             engine_name=engine,
             image=img,
             keypoint=min_pt,
             center=center_pt,
             crop_ratio=crop_ratio,
             label="min",
+            ground_truth=gt_min,
         )
 
-        max_value = self._extract_value_at_keypoint(
+        max_value, max_debug = self._extract_value_at_keypoint(
             engine_name=engine,
             image=img,
             keypoint=max_pt,
             center=center_pt,
             crop_ratio=crop_ratio,
             label="max",
+            ground_truth=gt_max,
         )
 
         logger.info(
@@ -226,6 +264,32 @@ class OcrService:
             min_value,
             max_value,
         )
+
+        if ENABLE_OCR_DEBUG_VISUALIZATION:
+            try:
+                from gauge_metadata.utils.cropper import compute_gauge_radius
+                r_min = compute_gauge_radius(center_pt, min_pt)
+                r_max = compute_gauge_radius(center_pt, max_pt)
+
+                # Determine image filename
+                resolved_name = image_name
+                if not resolved_name and isinstance(image, str):
+                    from pathlib import Path
+                    resolved_name = Path(image).name
+                if not resolved_name:
+                    resolved_name = "unknown_image.jpg"
+
+                img_debug = ImageDebugInfo(
+                    image_name=resolved_name,
+                    center=center_pt,
+                    min_debug=min_debug,
+                    max_debug=max_debug,
+                    gauge_radius_min=r_min,
+                    gauge_radius_max=r_max,
+                )
+                save_debug_artifacts(img, img_debug)
+            except Exception as debug_err:
+                logger.error("Failed to generate debug artifacts: %s", debug_err)
 
         return GaugeMetadataResponse(
             unit=None,
