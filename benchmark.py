@@ -343,7 +343,26 @@ def main() -> None:
 
     # Save detailed results if requested.
     if args.output:
-        output_data = asdict(summary)
+        results_dict = {}
+        for r in summary.results:
+            results_dict[r.image_name] = {
+                "gt_min": r.gt_min,
+                "pred_min": r.pred_min,
+                "gt_max": r.gt_max,
+                "pred_max": r.pred_max,
+            }
+
+        output_data = {
+            "engine": summary.engine,
+            "crop_ratio": summary.crop_ratio,
+            "total_images": summary.total_images,
+            "min_accuracy": summary.min_accuracy,
+            "max_accuracy": summary.max_accuracy,
+            "both_accuracy": summary.both_accuracy,
+            "total_time_seconds": summary.total_time_seconds,
+            "results": results_dict,
+        }
+
         with open(args.output, "w", encoding="utf-8") as f:
             json.dump(output_data, f, indent=2, default=str)
         logger.info("Results saved to %s", args.output)

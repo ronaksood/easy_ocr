@@ -1,0 +1,96 @@
+{
+  "image_name": "img103.jpg",
+  "center": {
+    "x": 159.41,
+    "y": 161.19
+  },
+  "gauge_radius_min": 108.53505839128664,
+  "gauge_radius_max": 109.61580634196878,
+  "min": {
+    "keypoint": {
+      "x": 61.86,
+      "y": 208.77
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 12,
+      "y1": 159,
+      "x2": 110,
+      "y2": 257,
+      "width": 98,
+      "height": 98,
+      "offset_x": 12,
+      "offset_y": 159
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  },
+  "max": {
+    "keypoint": {
+      "x": 256.36,
+      "y": 212.34
+    },
+    "ground_truth": 200.0,
+    "crop": {
+      "x1": 206,
+      "y1": 162,
+      "x2": 306,
+      "y2": 262,
+      "width": 100,
+      "height": 100,
+      "offset_x": 206,
+      "offset_y": 162
+    },
+    "ocr_detections_count": 1,
+    "numeric_candidates_count": 1,
+    "all_detections": [
+      {
+        "text": "200",
+        "confidence": 0.9989607930183411,
+        "bbox": [
+          [
+            0.3333333333333333,
+            29.666666666666668
+          ],
+          [
+            35.0,
+            28.666666666666668
+          ],
+          [
+            35.666666666666664,
+            50.666666666666664
+          ],
+          [
+            0.6666666666666666,
+            51.666666666666664
+          ]
+        ],
+        "bbox_center": [
+          17.916666666666664,
+          40.166666666666664
+        ]
+      }
+    ],
+    "numeric_candidates": [
+      {
+        "text": "200",
+        "confidence": 0.9989607930183411,
+        "bbox_center": [
+          17.916666666666664,
+          40.166666666666664
+        ]
+      }
+    ],
+    "selected_candidate": {
+      "text": "200",
+      "value": 200.0,
+      "confidence": 0.9989607930183411,
+      "center_x": 223.91666666666666,
+      "center_y": 202.16666666666666,
+      "distance_to_keypoint": 34.00097923426457
+    }
+  }
+}

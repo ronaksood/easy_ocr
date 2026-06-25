@@ -1,0 +1,96 @@
+{
+  "image_name": "img135.jpg",
+  "center": {
+    "x": 155.84,
+    "y": 163.57
+  },
+  "gauge_radius_min": 120.7284659887634,
+  "gauge_radius_max": 127.14670031109735,
+  "min": {
+    "keypoint": {
+      "x": 71.97,
+      "y": 250.41
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 16,
+      "y1": 195,
+      "x2": 126,
+      "y2": 305,
+      "width": 110,
+      "height": 110,
+      "offset_x": 16,
+      "offset_y": 195
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  },
+  "max": {
+    "keypoint": {
+      "x": 249.81,
+      "y": 249.22
+    },
+    "ground_truth": 100.0,
+    "crop": {
+      "x1": 191,
+      "y1": 191,
+      "x2": 307,
+      "y2": 307,
+      "width": 116,
+      "height": 116,
+      "offset_x": 191,
+      "offset_y": 191
+    },
+    "ocr_detections_count": 1,
+    "numeric_candidates_count": 1,
+    "all_detections": [
+      {
+        "text": "100",
+        "confidence": 0.9978920221328735,
+        "bbox": [
+          [
+            16.333333333333332,
+            27.333333333333332
+          ],
+          [
+            44.333333333333336,
+            27.333333333333332
+          ],
+          [
+            44.333333333333336,
+            48.333333333333336
+          ],
+          [
+            16.333333333333332,
+            48.333333333333336
+          ]
+        ],
+        "bbox_center": [
+          30.333333333333336,
+          37.833333333333336
+        ]
+      }
+    ],
+    "numeric_candidates": [
+      {
+        "text": "100",
+        "confidence": 0.9978920221328735,
+        "bbox_center": [
+          30.333333333333336,
+          37.833333333333336
+        ]
+      }
+    ],
+    "selected_candidate": {
+      "text": "100",
+      "value": 100.0,
+      "confidence": 0.9978920221328735,
+      "center_x": 221.33333333333334,
+      "center_y": 228.83333333333334,
+      "distance_to_keypoint": 35.02194629403428
+    }
+  }
+}

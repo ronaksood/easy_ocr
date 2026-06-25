@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import logging
 
 import cv2
@@ -6,6 +8,9 @@ import numpy as np
 from gauge_metadata.config import (
     CROP_RATIO,
     ENABLE_OCR_DEBUG_VISUALIZATION,
+    OCR_UPSCALE_FACTOR,
+    CLAHE_CLIP_LIMIT,
+    CLAHE_TILE_GRID_SIZE,
 )
 from gauge_metadata.schemas.metadata import GaugeMetadataResponse
 from gauge_metadata.schemas.ocr_detection import OcrDetection
@@ -13,9 +18,15 @@ from gauge_metadata.services.easy_ocr_service import EasyOcrService
 from gauge_metadata.services.rapid_ocr_service import RapidOcrService
 from gauge_metadata.services.tesseract_ocr_service import TesseractOcrService
 from gauge_metadata.utils.candidate_selector import extract_value_from_candidates
-from gauge_metadata.utils.cropper import CropResult, Point, crop_around_keypoint
+from gauge_metadata.utils.cropper import (
+    CropResult,
+    Point,
+    crop_around_keypoint,
+    preprocess_crop,
+)
 from gauge_metadata.utils.debug_visualizer import (
     ImageDebugInfo,
+    KeypointDebugInfo,
     collect_keypoint_debug,
     save_debug_artifacts,
 )
@@ -95,7 +106,7 @@ class OcrService:
         crop_ratio: float,
         label: str,
         ground_truth: float | None = None,
-    ) -> tuple[float | None, "KeypointDebugInfo" | None]:
+    ) -> tuple[float | None, KeypointDebugInfo | None]:
         """Run the crop → OCR → select pipeline for a single keypoint.
 
         Args:
@@ -132,17 +143,40 @@ class OcrService:
             )
             return None, None
 
+        # Preprocess crop (grayscale, CLAHE, upscale)
+        preprocessed_img = preprocess_crop(
+            crop_result.image,
+            upscale_factor=OCR_UPSCALE_FACTOR,
+            clip_limit=CLAHE_CLIP_LIMIT,
+            tile_grid_size=CLAHE_TILE_GRID_SIZE,
+        )
+
         engine = self._engines[engine_name]
-        detections: list[OcrDetection] = engine.read_image_detailed(
-            crop_result.image
+        raw_detections: list[OcrDetection] = engine.read_image_detailed(
+            preprocessed_img
         )
 
         logger.info(
-            "%s crop OCR (%s): %d detections",
+            "%s crop OCR (%s): %d detections (upscaled)",
             label.capitalize(),
             engine_name,
-            len(detections),
+            len(raw_detections),
         )
+
+        # Scale back the bounding box coordinates of all detections by the upscale factor
+        detections = []
+        if OCR_UPSCALE_FACTOR != 1.0:
+            for det in raw_detections:
+                scaled_bbox = [[pt[0] / OCR_UPSCALE_FACTOR, pt[1] / OCR_UPSCALE_FACTOR] for pt in det.bbox]
+                detections.append(
+                    OcrDetection(
+                        text=det.text,
+                        confidence=det.confidence,
+                        bbox=scaled_bbox,
+                    )
+                )
+        else:
+            detections = raw_detections
 
         value = extract_value_from_candidates(
             detections=detections,
@@ -168,6 +202,7 @@ class OcrService:
                 ground_truth=ground_truth,
                 offset_x=crop_result.offset_x,
                 offset_y=crop_result.offset_y,
+                preprocessed_image=preprocessed_img,
             )
 
         return value, debug_info

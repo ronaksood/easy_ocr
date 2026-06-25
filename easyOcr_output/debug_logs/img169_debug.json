@@ -1,0 +1,106 @@
+{
+  "image_name": "img169.jpg",
+  "center": {
+    "x": 158.81,
+    "y": 161.19
+  },
+  "gauge_radius_min": 114.55433863455369,
+  "gauge_radius_max": 110.34576974220623,
+  "min": {
+    "keypoint": {
+      "x": 73.75,
+      "y": 237.92
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 21,
+      "y1": 185,
+      "x2": 125,
+      "y2": 289,
+      "width": 104,
+      "height": 104,
+      "offset_x": 21,
+      "offset_y": 185
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  },
+  "max": {
+    "keypoint": {
+      "x": 240.89,
+      "y": 234.94
+    },
+    "ground_truth": 400.0,
+    "crop": {
+      "x1": 190,
+      "y1": 184,
+      "x2": 290,
+      "y2": 284,
+      "width": 100,
+      "height": 100,
+      "offset_x": 190,
+      "offset_y": 184
+    },
+    "ocr_detections_count": 2,
+    "numeric_candidates_count": 0,
+    "all_detections": [
+      {
+        "text": "4q0",
+        "confidence": 0.5128059624098253,
+        "bbox": [
+          [
+            4.0,
+            9.333333333333334
+          ],
+          [
+            40.0,
+            9.333333333333334
+          ],
+          [
+            40.0,
+            34.666666666666664
+          ],
+          [
+            4.0,
+            34.666666666666664
+          ]
+        ],
+        "bbox_center": [
+          22.0,
+          22.0
+        ]
+      },
+      {
+        "text": "[Lib",
+        "confidence": 0.10125204920768738,
+        "bbox": [
+          [
+            0.0,
+            48.0
+          ],
+          [
+            35.333333333333336,
+            48.0
+          ],
+          [
+            35.333333333333336,
+            65.33333333333333
+          ],
+          [
+            0.0,
+            65.33333333333333
+          ]
+        ],
+        "bbox_center": [
+          17.666666666666668,
+          56.666666666666664
+        ]
+      }
+    ],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  }
+}

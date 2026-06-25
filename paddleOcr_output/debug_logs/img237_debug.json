@@ -1,0 +1,53 @@
+{
+  "image_name": "img237.jpg",
+  "center": {
+    "x": 162.35,
+    "y": 156.47
+  },
+  "gauge_radius_min": 94.18317577996612,
+  "gauge_radius_max": 94.06882214634136,
+  "min": {
+    "keypoint": {
+      "x": 91.76,
+      "y": 218.82
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 48,
+      "y1": 175,
+      "x2": 134,
+      "y2": 261,
+      "width": 86,
+      "height": 86,
+      "offset_x": 48,
+      "offset_y": 175
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  },
+  "max": {
+    "keypoint": {
+      "x": 231.18,
+      "y": 220.59
+    },
+    "ground_truth": 100.0,
+    "crop": {
+      "x1": 188,
+      "y1": 177,
+      "x2": 274,
+      "y2": 263,
+      "width": 86,
+      "height": 86,
+      "offset_x": 188,
+      "offset_y": 177
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  }
+}

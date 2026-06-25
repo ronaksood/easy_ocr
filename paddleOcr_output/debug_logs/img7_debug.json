@@ -1,0 +1,96 @@
+{
+  "image_name": "img7.jpg",
+  "center": {
+    "x": 162.83,
+    "y": 162.2
+  },
+  "gauge_radius_min": 127.28812199101691,
+  "gauge_radius_max": 127.43968965750031,
+  "min": {
+    "keypoint": {
+      "x": 57.21,
+      "y": 233.24
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 0,
+      "y1": 175,
+      "x2": 115,
+      "y2": 291,
+      "width": 115,
+      "height": 116,
+      "offset_x": 0,
+      "offset_y": 175
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  },
+  "max": {
+    "keypoint": {
+      "x": 242.67,
+      "y": 261.53
+    },
+    "ground_truth": 1.0,
+    "crop": {
+      "x1": 184,
+      "y1": 203,
+      "x2": 300,
+      "y2": 319,
+      "width": 116,
+      "height": 116,
+      "offset_x": 184,
+      "offset_y": 203
+    },
+    "ocr_detections_count": 1,
+    "numeric_candidates_count": 1,
+    "all_detections": [
+      {
+        "text": "1.0",
+        "confidence": 0.8957295417785645,
+        "bbox": [
+          [
+            22.666666666666668,
+            9.666666666666666
+          ],
+          [
+            55.333333333333336,
+            12.0
+          ],
+          [
+            53.666666666666664,
+            40.666666666666664
+          ],
+          [
+            20.666666666666668,
+            38.333333333333336
+          ]
+        ],
+        "bbox_center": [
+          38.083333333333336,
+          25.166666666666668
+        ]
+      }
+    ],
+    "numeric_candidates": [
+      {
+        "text": "1.0",
+        "confidence": 0.8957295417785645,
+        "bbox_center": [
+          38.083333333333336,
+          25.166666666666668
+        ]
+      }
+    ],
+    "selected_candidate": {
+      "text": "1.0",
+      "value": 1.0,
+      "confidence": 0.8957295417785645,
+      "center_x": 222.08333333333334,
+      "center_y": 228.16666666666666,
+      "distance_to_keypoint": 39.203607685461215
+    }
+  }
+}

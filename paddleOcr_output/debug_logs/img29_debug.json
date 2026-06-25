@@ -1,0 +1,96 @@
+{
+  "image_name": "img29.jpg",
+  "center": {
+    "x": 165.34,
+    "y": 160.94
+  },
+  "gauge_radius_min": 88.55693366416885,
+  "gauge_radius_max": 101.80313796735344,
+  "min": {
+    "keypoint": {
+      "x": 105.62,
+      "y": 226.33
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 65,
+      "y1": 186,
+      "x2": 145,
+      "y2": 266,
+      "width": 80,
+      "height": 80,
+      "offset_x": 65,
+      "offset_y": 186
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  },
+  "max": {
+    "keypoint": {
+      "x": 237.64,
+      "y": 232.61
+    },
+    "ground_truth": 300.0,
+    "crop": {
+      "x1": 191,
+      "y1": 186,
+      "x2": 283,
+      "y2": 278,
+      "width": 92,
+      "height": 92,
+      "offset_x": 191,
+      "offset_y": 186
+    },
+    "ocr_detections_count": 1,
+    "numeric_candidates_count": 1,
+    "all_detections": [
+      {
+        "text": "2050",
+        "confidence": 0.9982268810272217,
+        "bbox": [
+          [
+            8.666666666666666,
+            12.666666666666666
+          ],
+          [
+            44.666666666666664,
+            12.666666666666666
+          ],
+          [
+            44.666666666666664,
+            30.666666666666668
+          ],
+          [
+            8.666666666666666,
+            30.666666666666668
+          ]
+        ],
+        "bbox_center": [
+          26.666666666666664,
+          21.666666666666668
+        ]
+      }
+    ],
+    "numeric_candidates": [
+      {
+        "text": "2050",
+        "confidence": 0.9982268810272217,
+        "bbox_center": [
+          26.666666666666664,
+          21.666666666666668
+        ]
+      }
+    ],
+    "selected_candidate": {
+      "text": "2050",
+      "value": 2050.0,
+      "confidence": 0.9982268810272217,
+      "center_x": 217.66666666666666,
+      "center_y": 207.66666666666666,
+      "distance_to_keypoint": 31.95471674451556
+    }
+  }
+}

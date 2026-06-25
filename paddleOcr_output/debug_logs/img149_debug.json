@@ -1,0 +1,106 @@
+{
+  "image_name": "img149.jpg",
+  "center": {
+    "x": 160.59,
+    "y": 162.97
+  },
+  "gauge_radius_min": 83.16720146788637,
+  "gauge_radius_max": 93.91199337677803,
+  "min": {
+    "keypoint": {
+      "x": 107.06,
+      "y": 226.62
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 69,
+      "y1": 188,
+      "x2": 145,
+      "y2": 264,
+      "width": 76,
+      "height": 76,
+      "offset_x": 69,
+      "offset_y": 188
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  },
+  "max": {
+    "keypoint": {
+      "x": 230.19,
+      "y": 226.02
+    },
+    "ground_truth": 160.0,
+    "crop": {
+      "x1": 187,
+      "y1": 183,
+      "x2": 273,
+      "y2": 269,
+      "width": 86,
+      "height": 86,
+      "offset_x": 187,
+      "offset_y": 183
+    },
+    "ocr_detections_count": 2,
+    "numeric_candidates_count": 0,
+    "all_detections": [
+      {
+        "text": "SLO",
+        "confidence": 0.5723688006401062,
+        "bbox": [
+          [
+            15.0,
+            16.666666666666668
+          ],
+          [
+            40.333333333333336,
+            17.666666666666668
+          ],
+          [
+            40.0,
+            28.666666666666668
+          ],
+          [
+            14.666666666666666,
+            27.666666666666668
+          ]
+        ],
+        "bbox_center": [
+          27.5,
+          22.666666666666668
+        ]
+      },
+      {
+        "text": "CENA",
+        "confidence": 0.5342204570770264,
+        "bbox": [
+          [
+            23.666666666666668,
+            73.66666666666667
+          ],
+          [
+            45.333333333333336,
+            73.66666666666667
+          ],
+          [
+            45.333333333333336,
+            83.33333333333333
+          ],
+          [
+            23.666666666666668,
+            83.33333333333333
+          ]
+        ],
+        "bbox_center": [
+          34.5,
+          78.5
+        ]
+      }
+    ],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  }
+}

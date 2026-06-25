@@ -1,0 +1,106 @@
+{
+  "image_name": "img119.jpg",
+  "center": {
+    "x": 160.0,
+    "y": 161.19
+  },
+  "gauge_radius_min": 100.10864348296803,
+  "gauge_radius_max": 98.42578981141071,
+  "min": {
+    "keypoint": {
+      "x": 89.81,
+      "y": 232.57
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 43,
+      "y1": 186,
+      "x2": 135,
+      "y2": 278,
+      "width": 92,
+      "height": 92,
+      "offset_x": 43,
+      "offset_y": 186
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  },
+  "max": {
+    "keypoint": {
+      "x": 230.19,
+      "y": 230.19
+    },
+    "ground_truth": 3000.0,
+    "crop": {
+      "x1": 185,
+      "y1": 185,
+      "x2": 275,
+      "y2": 275,
+      "width": 90,
+      "height": 90,
+      "offset_x": 185,
+      "offset_y": 185
+    },
+    "ocr_detections_count": 2,
+    "numeric_candidates_count": 0,
+    "all_detections": [
+      {
+        "text": "20d30",
+        "confidence": 0.1553557769325111,
+        "bbox": [
+          [
+            8.333333333333334,
+            12.333333333333334
+          ],
+          [
+            36.333333333333336,
+            12.333333333333334
+          ],
+          [
+            36.333333333333336,
+            25.666666666666668
+          ],
+          [
+            8.333333333333334,
+            25.666666666666668
+          ]
+        ],
+        "bbox_center": [
+          22.333333333333336,
+          19.0
+        ]
+      },
+      {
+        "text": "J002",
+        "confidence": 0.17522715158715738,
+        "bbox": [
+          [
+            45.0,
+            48.333333333333336
+          ],
+          [
+            69.66666666666667,
+            48.333333333333336
+          ],
+          [
+            69.66666666666667,
+            62.333333333333336
+          ],
+          [
+            45.0,
+            62.333333333333336
+          ]
+        ],
+        "bbox_center": [
+          57.333333333333336,
+          55.333333333333336
+        ]
+      }
+    ],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  }
+}

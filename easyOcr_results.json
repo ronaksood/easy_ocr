@@ -1,0 +1,1721 @@
+{
+  "engine": "easy_ocr",
+  "crop_ratio": 0.45,
+  "total_images": 285,
+  "min_accuracy": 0.3543859649122807,
+  "max_accuracy": 0.5087719298245614,
+  "both_accuracy": 0.23508771929824562,
+  "total_time_seconds": 16.714395279064775,
+  "results": {
+    "img1.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 400.0,
+      "pred_max": 400.0
+    },
+    "img10.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 120.0,
+      "pred_max": 120.0
+    },
+    "img100.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.6,
+      "pred_max": 1.6
+    },
+    "img101.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 0.6,
+      "pred_max": 0.6
+    },
+    "img102.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 150.0,
+      "pred_max": 8.0
+    },
+    "img103.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 1.0,
+      "gt_max": 200.0,
+      "pred_max": 200.0
+    },
+    "img104.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 100.0,
+      "pred_max": null
+    },
+    "img105.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 100.0,
+      "pred_max": 100.0
+    },
+    "img106.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 50.0,
+      "pred_max": 50.0
+    },
+    "img107.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 1.0,
+      "gt_max": 50.0,
+      "pred_max": 50.0
+    },
+    "img108.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 0.7,
+      "pred_max": 90.0
+    },
+    "img109.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img11.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 7.0,
+      "pred_max": 7.0
+    },
+    "img110.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 6.0,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img111.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img112.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 180.0,
+      "pred_max": 8.0
+    },
+    "img113.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 180.0,
+      "pred_max": 180.0
+    },
+    "img114.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 180.0,
+      "pred_max": 180.0
+    },
+    "img115.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 180.0,
+      "pred_max": 180.0
+    },
+    "img116.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 180.0,
+      "pred_max": 180.0
+    },
+    "img117.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 180.0,
+      "pred_max": 8.0
+    },
+    "img118.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 1.0,
+      "gt_max": 120.0,
+      "pred_max": 120.0
+    },
+    "img119.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 3000.0,
+      "pred_max": null
+    },
+    "img12.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 120.0,
+      "pred_max": 120.0
+    },
+    "img120.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 3000.0,
+      "pred_max": null
+    },
+    "img121.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 3000.0,
+      "pred_max": null
+    },
+    "img122.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 4.0,
+      "pred_max": null
+    },
+    "img123.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 60.0,
+      "pred_max": 8.0
+    },
+    "img124.jpg": {
+      "gt_min": -125.0,
+      "pred_min": 4125.0,
+      "gt_max": 125.0,
+      "pred_max": 125.0
+    },
+    "img125.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 4.0,
+      "gt_max": 1.0,
+      "pred_max": null
+    },
+    "img126.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 2.5,
+      "pred_max": 25.0
+    },
+    "img127.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.0,
+      "pred_max": null
+    },
+    "img128.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.0,
+      "pred_max": null
+    },
+    "img129.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 5000.0,
+      "pred_max": null
+    },
+    "img13.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 1.0,
+      "gt_max": 120.0,
+      "pred_max": 120.0
+    },
+    "img130.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img131.jpg": {
+      "gt_min": -0.1,
+      "pred_min": 0.0,
+      "gt_max": 0.15,
+      "pred_max": 2.0
+    },
+    "img132.jpg": {
+      "gt_min": -0.1,
+      "pred_min": 1.0,
+      "gt_max": 0.15,
+      "pred_max": 3.0
+    },
+    "img133.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 150.0,
+      "pred_max": 150.0
+    },
+    "img134.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 50.0,
+      "gt_max": 600.0,
+      "pred_max": 600.0
+    },
+    "img135.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 1.0,
+      "gt_max": 100.0,
+      "pred_max": null
+    },
+    "img136.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 100.0,
+      "pred_max": null
+    },
+    "img137.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 120.0,
+      "pred_max": 120.0
+    },
+    "img138.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 100.0,
+      "pred_max": 100.0
+    },
+    "img139.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 100.0,
+      "pred_max": 100.0
+    },
+    "img14.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 120.0,
+      "pred_max": 120.0
+    },
+    "img140.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 100.0,
+      "pred_max": null
+    },
+    "img141.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 200.0,
+      "gt_max": 2000.0,
+      "pred_max": 2000.0
+    },
+    "img142.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 200.0,
+      "gt_max": 2000.0,
+      "pred_max": 2000.0
+    },
+    "img143.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 100.0,
+      "pred_max": 28.0
+    },
+    "img144.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 70.0,
+      "pred_max": null
+    },
+    "img145.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 1.0,
+      "pred_max": null
+    },
+    "img146.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 1.0,
+      "pred_max": null
+    },
+    "img147.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 100.0,
+      "pred_max": null
+    },
+    "img148.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 160.0,
+      "pred_max": 750.0
+    },
+    "img149.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 160.0,
+      "pred_max": null
+    },
+    "img15.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 1.0,
+      "gt_max": 120.0,
+      "pred_max": 40.0
+    },
+    "img150.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 160.0,
+      "pred_max": null
+    },
+    "img151.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 1500.0,
+      "pred_max": null
+    },
+    "img152.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 2.0,
+      "pred_max": 0.0
+    },
+    "img153.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 2.0,
+      "pred_max": null
+    },
+    "img154.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 100.0,
+      "pred_max": null
+    },
+    "img155.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 100.0,
+      "pred_max": null
+    },
+    "img156.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 40.0,
+      "pred_max": 40.0
+    },
+    "img157.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 620.0,
+      "pred_max": null
+    },
+    "img158.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 100.0,
+      "pred_max": 100.0
+    },
+    "img159.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 300.0,
+      "pred_max": 38.0
+    },
+    "img16.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 1.0,
+      "gt_max": 7.0,
+      "pred_max": 7.0
+    },
+    "img160.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 300.0,
+      "pred_max": 40.0
+    },
+    "img161.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 300.0,
+      "pred_max": 300.0
+    },
+    "img162.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 300.0,
+      "pred_max": 300.0
+    },
+    "img163.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 100.0,
+      "pred_max": null
+    },
+    "img164.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 16.0,
+      "pred_max": 16.0
+    },
+    "img165.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 150.0,
+      "pred_max": 150.0
+    },
+    "img166.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 0.6,
+      "pred_max": null
+    },
+    "img167.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 0.6,
+      "pred_max": 0.6
+    },
+    "img168.jpg": {
+      "gt_min": 0.5,
+      "pred_min": null,
+      "gt_max": 7.5,
+      "pred_max": null
+    },
+    "img169.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 400.0,
+      "pred_max": null
+    },
+    "img17.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 1000.0,
+      "pred_max": 1000.0
+    },
+    "img170.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 400.0,
+      "pred_max": null
+    },
+    "img171.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 400.0,
+      "pred_max": null
+    },
+    "img172.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 3.0,
+      "gt_max": 1100.0,
+      "pred_max": 160.0
+    },
+    "img173.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1100.0,
+      "pred_max": 8.0
+    },
+    "img174.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.6,
+      "pred_max": 16.0
+    },
+    "img175.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.6,
+      "pred_max": 16.0
+    },
+    "img176.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.6,
+      "pred_max": 16.0
+    },
+    "img177.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.6,
+      "pred_max": 16.0
+    },
+    "img178.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 25.0,
+      "pred_max": 25.0
+    },
+    "img179.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img18.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 315.0,
+      "gt_max": 200.0,
+      "pred_max": 200.0
+    },
+    "img180.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 25.0,
+      "pred_max": 25.0
+    },
+    "img181.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 25.0,
+      "pred_max": 25.0
+    },
+    "img182.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.6,
+      "pred_max": 16.0
+    },
+    "img183.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img184.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 25.0,
+      "pred_max": 25.0
+    },
+    "img185.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.6,
+      "pred_max": 1.6
+    },
+    "img186.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.6,
+      "pred_max": 16.0
+    },
+    "img187.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 25.0,
+      "pred_max": 25.0
+    },
+    "img188.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img189.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 60.0,
+      "pred_max": 60.0
+    },
+    "img19.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 60.0,
+      "pred_max": 4.0
+    },
+    "img190.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 60.0,
+      "pred_max": 60.0
+    },
+    "img191.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 60.0,
+      "pred_max": 60.0
+    },
+    "img192.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 60.0,
+      "pred_max": 60.0
+    },
+    "img193.jpg": {
+      "gt_min": 32.0,
+      "pred_min": 4.0,
+      "gt_max": 570.0,
+      "pred_max": 824.0
+    },
+    "img194.jpg": {
+      "gt_min": 50.0,
+      "pred_min": 50.0,
+      "gt_max": 650.0,
+      "pred_max": 650.0
+    },
+    "img195.jpg": {
+      "gt_min": -0.1,
+      "pred_min": 0.1,
+      "gt_max": 0.25,
+      "pred_max": 0.25
+    },
+    "img196.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 100.0,
+      "pred_max": 100.0
+    },
+    "img197.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 4.0,
+      "pred_max": null
+    },
+    "img198.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 1.0,
+      "pred_max": 15.0
+    },
+    "img199.jpg": {
+      "gt_min": -1.0,
+      "pred_min": 2.0,
+      "gt_max": 5.0,
+      "pred_max": 5.0
+    },
+    "img2.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 400.0,
+      "pred_max": 400.0
+    },
+    "img20.jpg": {
+      "gt_min": 1000.0,
+      "pred_min": null,
+      "gt_max": 28000.0,
+      "pred_max": null
+    },
+    "img200.jpg": {
+      "gt_min": 30.0,
+      "pred_min": 3.0,
+      "gt_max": 750.0,
+      "pred_max": 2.0
+    },
+    "img201.jpg": {
+      "gt_min": 30.0,
+      "pred_min": 2.0,
+      "gt_max": 750.0,
+      "pred_max": 2.0
+    },
+    "img202.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 30.0,
+      "pred_max": 30.0
+    },
+    "img203.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 200.0,
+      "pred_max": 8.0
+    },
+    "img204.jpg": {
+      "gt_min": -30.0,
+      "pred_min": 30.0,
+      "gt_max": 21.0,
+      "pred_max": 21.0
+    },
+    "img205.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 10.0,
+      "gt_max": 150.0,
+      "pred_max": 150.0
+    },
+    "img206.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.0,
+      "pred_max": 10.0
+    },
+    "img207.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 3000.0,
+      "pred_max": 3000.0
+    },
+    "img208.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 300.0,
+      "pred_max": 20.0
+    },
+    "img209.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 1.0,
+      "gt_max": 1.0,
+      "pred_max": null
+    },
+    "img21.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 2.0,
+      "gt_max": 100.0,
+      "pred_max": 0.0
+    },
+    "img210.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.0,
+      "pred_max": null
+    },
+    "img211.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 160.0,
+      "pred_max": 160.0
+    },
+    "img212.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 160.0,
+      "pred_max": 160.0
+    },
+    "img213.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 300.0,
+      "pred_max": 300.0
+    },
+    "img214.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 2.0,
+      "gt_max": 300.0,
+      "pred_max": 4.0
+    },
+    "img215.jpg": {
+      "gt_min": -1.0,
+      "pred_min": 7.0,
+      "gt_max": 1.5,
+      "pred_max": 15.0
+    },
+    "img216.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 200.0,
+      "pred_max": 8.0
+    },
+    "img217.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 7000.0,
+      "pred_max": 7000.0
+    },
+    "img218.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 6000.0,
+      "pred_max": 3.0
+    },
+    "img219.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 6000.0,
+      "pred_max": 6.0
+    },
+    "img22.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 25.0,
+      "pred_max": 350.0
+    },
+    "img220.jpg": {
+      "gt_min": 3.0,
+      "pred_min": 10.0,
+      "gt_max": 100.0,
+      "pred_max": 100.0
+    },
+    "img221.jpg": {
+      "gt_min": -30.0,
+      "pred_min": 30.0,
+      "gt_max": 15.0,
+      "pred_max": 1.0
+    },
+    "img222.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 3.0,
+      "gt_max": 5000.0,
+      "pred_max": 5000.0
+    },
+    "img223.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 3.0,
+      "gt_max": 5000.0,
+      "pred_max": 5000.0
+    },
+    "img224.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 2.0,
+      "pred_max": 10.0
+    },
+    "img225.jpg": {
+      "gt_min": 30.0,
+      "pred_min": 0.0,
+      "gt_max": 750.0,
+      "pred_max": 150.0
+    },
+    "img226.jpg": {
+      "gt_min": 30.0,
+      "pred_min": 7.0,
+      "gt_max": 750.0,
+      "pred_max": 250.0
+    },
+    "img227.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 3.0,
+      "pred_max": 3.0
+    },
+    "img228.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 9.0,
+      "gt_max": 100.0,
+      "pred_max": 7.0
+    },
+    "img229.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 32.0,
+      "gt_max": 80.0,
+      "pred_max": 80.0
+    },
+    "img23.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 80.0,
+      "pred_max": 1.0
+    },
+    "img230.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 32.0,
+      "gt_max": 80.0,
+      "pred_max": 80.0
+    },
+    "img231.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 400.0,
+      "pred_max": 400.0
+    },
+    "img232.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 150.0,
+      "pred_max": 150.0
+    },
+    "img233.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 3.0,
+      "gt_max": 12.0,
+      "pred_max": null
+    },
+    "img234.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 8.0,
+      "gt_max": 1.0,
+      "pred_max": 10.0
+    },
+    "img235.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 100.0,
+      "pred_max": 7.0
+    },
+    "img236.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 9.0,
+      "gt_max": 100.0,
+      "pred_max": 6.0
+    },
+    "img237.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 4.0,
+      "gt_max": 100.0,
+      "pred_max": 8.0
+    },
+    "img238.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 100.0,
+      "pred_max": 2.0
+    },
+    "img239.jpg": {
+      "gt_min": 1.0,
+      "pred_min": 15.0,
+      "gt_max": 20.0,
+      "pred_max": 3.0
+    },
+    "img24.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 80.0,
+      "pred_max": 80.0
+    },
+    "img240.jpg": {
+      "gt_min": 1.0,
+      "pred_min": 25.0,
+      "gt_max": 20.0,
+      "pred_max": 8.0
+    },
+    "img241.jpg": {
+      "gt_min": 1.0,
+      "pred_min": 25.0,
+      "gt_max": 20.0,
+      "pred_max": 8.0
+    },
+    "img242.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 3.0,
+      "gt_max": 2.5,
+      "pred_max": 0.0
+    },
+    "img243.jpg": {
+      "gt_min": -1.0,
+      "pred_min": -1.0,
+      "gt_max": 1.5,
+      "pred_max": 15.0
+    },
+    "img244.jpg": {
+      "gt_min": -1.0,
+      "pred_min": 1.0,
+      "gt_max": 5.0,
+      "pred_max": null
+    },
+    "img245.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 100.0,
+      "pred_max": 100.0
+    },
+    "img246.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 200.0,
+      "pred_max": 100.0
+    },
+    "img247.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 15.0,
+      "pred_max": 4.0
+    },
+    "img248.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 15.0,
+      "pred_max": null
+    },
+    "img249.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 300.0,
+      "pred_max": 300.0
+    },
+    "img25.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 600.0,
+      "pred_max": 600.0
+    },
+    "img250.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 300.0,
+      "pred_max": 300.0
+    },
+    "img251.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 300.0,
+      "pred_max": 2.0
+    },
+    "img252.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 8.0,
+      "gt_max": 300.0,
+      "pred_max": 300.0
+    },
+    "img253.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 8.0,
+      "gt_max": 300.0,
+      "pred_max": 300.0
+    },
+    "img254.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1000.0,
+      "pred_max": null
+    },
+    "img255.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 600.0,
+      "pred_max": 600.0
+    },
+    "img256.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 6.0,
+      "pred_max": 6.0
+    },
+    "img257.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 2.0,
+      "gt_max": 200.0,
+      "pred_max": 200.0
+    },
+    "img258.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 2.0,
+      "gt_max": 200.0,
+      "pred_max": 200.0
+    },
+    "img259.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 5000.0,
+      "pred_max": 5000.0
+    },
+    "img26.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 120.0,
+      "pred_max": 120.0
+    },
+    "img260.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 220.0,
+      "pred_max": 220.0
+    },
+    "img261.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 6.0,
+      "pred_max": 6.0
+    },
+    "img262.jpg": {
+      "gt_min": -1.0,
+      "pred_min": 71.0,
+      "gt_max": 5.0,
+      "pred_max": 5.0
+    },
+    "img263.jpg": {
+      "gt_min": 0.5,
+      "pred_min": 19.0,
+      "gt_max": 7.5,
+      "pred_max": null
+    },
+    "img264.jpg": {
+      "gt_min": 0.5,
+      "pred_min": 5.0,
+      "gt_max": 7.5,
+      "pred_max": 7.5
+    },
+    "img265.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 180.0,
+      "pred_max": 180.0
+    },
+    "img266.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 3.0,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img267.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 400.0,
+      "pred_max": 400.0
+    },
+    "img268.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 250.0,
+      "pred_max": 250.0
+    },
+    "img269.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 1100.0,
+      "pred_max": 1100.0
+    },
+    "img27.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 160.0,
+      "pred_max": 460.0
+    },
+    "img270.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 160.0,
+      "pred_max": 160.0
+    },
+    "img271.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 300.0,
+      "pred_max": 720.0
+    },
+    "img272.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 160.0,
+      "pred_max": 15.0
+    },
+    "img273.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 60.0,
+      "pred_max": 8.0
+    },
+    "img274.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 1.0,
+      "pred_max": null
+    },
+    "img275.jpg": {
+      "gt_min": -1.0,
+      "pred_min": null,
+      "gt_max": 9.0,
+      "pred_max": 0.0
+    },
+    "img276.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 40.0,
+      "pred_max": 40.0
+    },
+    "img277.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 100.0,
+      "pred_max": null
+    },
+    "img278.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 3000.0,
+      "pred_max": 200.0
+    },
+    "img279.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 30.0,
+      "pred_max": null
+    },
+    "img28.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 100.0,
+      "pred_max": 100.0
+    },
+    "img280.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 60.0,
+      "pred_max": null
+    },
+    "img281.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 10.0,
+      "gt_max": 200.0,
+      "pred_max": null
+    },
+    "img282.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 500.0,
+      "pred_max": 500.0
+    },
+    "img283.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img284.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 3.0,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img285.jpg": {
+      "gt_min": 30.0,
+      "pred_min": null,
+      "gt_max": 300.0,
+      "pred_max": 300.0
+    },
+    "img29.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 3.0,
+      "gt_max": 300.0,
+      "pred_max": 95.0
+    },
+    "img3.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 30.0,
+      "pred_max": 330.0
+    },
+    "img30.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 160.0,
+      "pred_max": 160.0
+    },
+    "img31.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 160.0,
+      "pred_max": 160.0
+    },
+    "img32.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 10.0,
+      "pred_max": 16.0
+    },
+    "img33.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 10.0,
+      "pred_max": 41.0
+    },
+    "img34.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 1.0,
+      "gt_max": 800.0,
+      "pred_max": 800.0
+    },
+    "img35.jpg": {
+      "gt_min": -1.0,
+      "pred_min": -1.0,
+      "gt_max": 3.0,
+      "pred_max": 3.0
+    },
+    "img36.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img37.jpg": {
+      "gt_min": -1.0,
+      "pred_min": null,
+      "gt_max": 1.5,
+      "pred_max": 115.0
+    },
+    "img38.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 4.0,
+      "pred_max": null
+    },
+    "img39.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 6.0,
+      "pred_max": null
+    },
+    "img4.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 30.0,
+      "pred_max": 30.0
+    },
+    "img40.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 60.0,
+      "pred_max": 60.0
+    },
+    "img41.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 60.0,
+      "pred_max": 60.0
+    },
+    "img42.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 10.0,
+      "pred_max": 625.0
+    },
+    "img43.jpg": {
+      "gt_min": 32.0,
+      "pred_min": 3.0,
+      "gt_max": 570.0,
+      "pred_max": 570.0
+    },
+    "img44.jpg": {
+      "gt_min": 32.0,
+      "pred_min": 37.0,
+      "gt_max": 570.0,
+      "pred_max": 570.0
+    },
+    "img45.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 500.0,
+      "pred_max": 500.0
+    },
+    "img46.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 0.6,
+      "pred_max": 5.0
+    },
+    "img47.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 30.0,
+      "gt_max": 100.0,
+      "pred_max": 3301.0
+    },
+    "img48.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img49.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 0.6,
+      "pred_max": null
+    },
+    "img5.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 120.0,
+      "pred_max": 20.0
+    },
+    "img50.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 140.0,
+      "pred_max": null
+    },
+    "img51.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 140.0,
+      "pred_max": 8.0
+    },
+    "img52.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 7.0,
+      "gt_max": 5000.0,
+      "pred_max": 5000.0
+    },
+    "img53.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 7.0,
+      "gt_max": 40.0,
+      "pred_max": 40.0
+    },
+    "img54.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 30.0,
+      "gt_max": 300.0,
+      "pred_max": 300.0
+    },
+    "img55.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 150.0,
+      "pred_max": 150.0
+    },
+    "img56.jpg": {
+      "gt_min": -10.0,
+      "pred_min": 0.0,
+      "gt_max": 130.0,
+      "pred_max": 50.0
+    },
+    "img57.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 7000.0,
+      "pred_max": 7000.0
+    },
+    "img58.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 40.0,
+      "pred_max": 40.0
+    },
+    "img59.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 6.0,
+      "pred_max": 6.0
+    },
+    "img6.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 25.0,
+      "pred_max": 25.0
+    },
+    "img60.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 4000.0,
+      "pred_max": null
+    },
+    "img61.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 15.0,
+      "pred_max": 15.0
+    },
+    "img62.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 140.0,
+      "pred_max": 140.0
+    },
+    "img63.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 140.0,
+      "pred_max": 140.0
+    },
+    "img64.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 140.0,
+      "pred_max": 140.0
+    },
+    "img65.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 150.0,
+      "pred_max": 150.0
+    },
+    "img66.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 12.0,
+      "pred_max": 12.0
+    },
+    "img67.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 700.0,
+      "pred_max": 700.0
+    },
+    "img68.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 4.0,
+      "pred_max": null
+    },
+    "img69.jpg": {
+      "gt_min": -33.0,
+      "pred_min": null,
+      "gt_max": 43.0,
+      "pred_max": null
+    },
+    "img7.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 1.0,
+      "pred_max": null
+    },
+    "img70.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 12.0,
+      "pred_max": 12.0
+    },
+    "img71.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 15.0,
+      "pred_max": 15.0
+    },
+    "img72.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 550.0,
+      "pred_max": 550.0
+    },
+    "img73.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 4.0,
+      "gt_max": 80.0,
+      "pred_max": 1.0
+    },
+    "img74.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 120.0,
+      "pred_max": 120.0
+    },
+    "img75.jpg": {
+      "gt_min": 2.0,
+      "pred_min": null,
+      "gt_max": 15.0,
+      "pred_max": 15.0
+    },
+    "img76.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img77.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img78.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img79.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 30.0,
+      "pred_max": 200.0
+    },
+    "img8.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 1.0,
+      "gt_max": 60.0,
+      "pred_max": 60.0
+    },
+    "img80.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 100.0,
+      "pred_max": null
+    },
+    "img81.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 15000.0,
+      "pred_max": null
+    },
+    "img82.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 30.0,
+      "pred_max": null
+    },
+    "img83.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 30.0,
+      "pred_max": 330.0
+    },
+    "img84.jpg": {
+      "gt_min": -30.0,
+      "pred_min": 30.0,
+      "gt_max": 300.0,
+      "pred_max": 300.0
+    },
+    "img85.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 2000.0,
+      "pred_max": 206.0
+    },
+    "img86.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 16.0,
+      "pred_max": 716.0
+    },
+    "img87.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 30.0,
+      "gt_max": 50.0,
+      "pred_max": 120.0
+    },
+    "img88.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 200.0,
+      "pred_max": 7200.0
+    },
+    "img89.jpg": {
+      "gt_min": -30.0,
+      "pred_min": 3.0,
+      "gt_max": 30.0,
+      "pred_max": null
+    },
+    "img9.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 60.0,
+      "pred_max": 60.0
+    },
+    "img90.jpg": {
+      "gt_min": 30.0,
+      "pred_min": 0.0,
+      "gt_max": 750.0,
+      "pred_max": 260.0
+    },
+    "img91.jpg": {
+      "gt_min": -30.0,
+      "pred_min": 4100.0,
+      "gt_max": 30.0,
+      "pred_max": 30.0
+    },
+    "img92.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 700.0,
+      "pred_max": 8.0
+    },
+    "img93.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 10.0,
+      "pred_max": 10.0
+    },
+    "img94.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 100.0,
+      "pred_max": 70.0
+    },
+    "img95.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 100.0,
+      "pred_max": null
+    },
+    "img96.jpg": {
+      "gt_min": 10.0,
+      "pred_min": null,
+      "gt_max": 300.0,
+      "pred_max": 300.0
+    },
+    "img97.jpg": {
+      "gt_min": 0.0,
+      "pred_min": null,
+      "gt_max": 1.0,
+      "pred_max": null
+    },
+    "img98.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.0,
+      "pred_max": 1.0
+    },
+    "img99.jpg": {
+      "gt_min": 0.0,
+      "pred_min": 0.0,
+      "gt_max": 1.0,
+      "pred_max": 1.0
+    }
+  }
+}

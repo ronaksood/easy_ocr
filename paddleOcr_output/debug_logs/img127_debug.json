@@ -1,0 +1,123 @@
+{
+  "image_name": "img127.jpg",
+  "center": {
+    "x": 157.62,
+    "y": 166.54
+  },
+  "gauge_radius_min": 109.51258238211719,
+  "gauge_radius_max": 129.93490370181524,
+  "min": {
+    "keypoint": {
+      "x": 84.46,
+      "y": 248.03
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 34,
+      "y1": 198,
+      "x2": 134,
+      "y2": 298,
+      "width": 100,
+      "height": 100,
+      "offset_x": 34,
+      "offset_y": 198
+    },
+    "ocr_detections_count": 1,
+    "numeric_candidates_count": 1,
+    "all_detections": [
+      {
+        "text": "0",
+        "confidence": 0.6898030042648315,
+        "bbox": [
+          [
+            68.0,
+            15.666666666666666
+          ],
+          [
+            84.33333333333333,
+            15.666666666666666
+          ],
+          [
+            84.33333333333333,
+            36.333333333333336
+          ],
+          [
+            68.0,
+            36.333333333333336
+          ]
+        ],
+        "bbox_center": [
+          76.16666666666666,
+          26.0
+        ]
+      }
+    ],
+    "numeric_candidates": [
+      {
+        "text": "0",
+        "confidence": 0.6898030042648315,
+        "bbox_center": [
+          76.16666666666666,
+          26.0
+        ]
+      }
+    ],
+    "selected_candidate": {
+      "text": "0",
+      "value": 0.0,
+      "confidence": 0.6898030042648315,
+      "center_x": 110.16666666666666,
+      "center_y": 224.0,
+      "distance_to_keypoint": 35.189112110297856
+    }
+  },
+  "max": {
+    "keypoint": {
+      "x": 256.36,
+      "y": 251.0
+    },
+    "ground_truth": 1.0,
+    "crop": {
+      "x1": 197,
+      "y1": 192,
+      "x2": 315,
+      "y2": 310,
+      "width": 118,
+      "height": 118,
+      "offset_x": 197,
+      "offset_y": 192
+    },
+    "ocr_detections_count": 1,
+    "numeric_candidates_count": 0,
+    "all_detections": [
+      {
+        "text": "1,0",
+        "confidence": 0.8306916356086731,
+        "bbox": [
+          [
+            10.333333333333334,
+            16.666666666666668
+          ],
+          [
+            44.0,
+            16.666666666666668
+          ],
+          [
+            44.0,
+            40.333333333333336
+          ],
+          [
+            10.333333333333334,
+            40.333333333333336
+          ]
+        ],
+        "bbox_center": [
+          27.166666666666668,
+          28.5
+        ]
+      }
+    ],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  }
+}

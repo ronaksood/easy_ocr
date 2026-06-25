@@ -1,0 +1,122 @@
+{
+  "image_name": "img2.jpg",
+  "center": {
+    "x": 159.69,
+    "y": 164.09
+  },
+  "gauge_radius_min": 92.06862929358728,
+  "gauge_radius_max": 94.69092987187314,
+  "min": {
+    "keypoint": {
+      "x": 92.42,
+      "y": 226.95
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 50,
+      "y1": 184,
+      "x2": 134,
+      "y2": 268,
+      "width": 84,
+      "height": 84,
+      "offset_x": 50,
+      "offset_y": 184
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  },
+  "max": {
+    "keypoint": {
+      "x": 225.7,
+      "y": 231.98
+    },
+    "ground_truth": 400.0,
+    "crop": {
+      "x1": 182,
+      "y1": 188,
+      "x2": 268,
+      "y2": 274,
+      "width": 86,
+      "height": 86,
+      "offset_x": 182,
+      "offset_y": 188
+    },
+    "ocr_detections_count": 2,
+    "numeric_candidates_count": 1,
+    "all_detections": [
+      {
+        "text": "a",
+        "confidence": 0.9957049489021301,
+        "bbox": [
+          [
+            1.3333333333333333,
+            36.666666666666664
+          ],
+          [
+            10.0,
+            36.666666666666664
+          ],
+          [
+            10.0,
+            46.666666666666664
+          ],
+          [
+            1.3333333333333333,
+            46.666666666666664
+          ]
+        ],
+        "bbox_center": [
+          5.666666666666667,
+          41.666666666666664
+        ]
+      },
+      {
+        "text": "400",
+        "confidence": 0.6384124755859375,
+        "bbox": [
+          [
+            55.333333333333336,
+            43.333333333333336
+          ],
+          [
+            75.0,
+            47.666666666666664
+          ],
+          [
+            68.66666666666667,
+            74.33333333333333
+          ],
+          [
+            49.0,
+            69.66666666666667
+          ]
+        ],
+        "bbox_center": [
+          62.0,
+          58.75
+        ]
+      }
+    ],
+    "numeric_candidates": [
+      {
+        "text": "400",
+        "confidence": 0.6384124755859375,
+        "bbox_center": [
+          62.0,
+          58.75
+        ]
+      }
+    ],
+    "selected_candidate": {
+      "text": "400",
+      "value": 400.0,
+      "confidence": 0.6384124755859375,
+      "center_x": 244.0,
+      "center_y": 246.75,
+      "distance_to_keypoint": 23.516864161703207
+    }
+  }
+}

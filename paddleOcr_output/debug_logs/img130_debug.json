@@ -1,0 +1,96 @@
+{
+  "image_name": "img130.jpg",
+  "center": {
+    "x": 158.22,
+    "y": 158.22
+  },
+  "gauge_radius_min": 125.36009612312843,
+  "gauge_radius_max": 125.06249637681155,
+  "min": {
+    "keypoint": {
+      "x": 67.81,
+      "y": 245.06
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 10,
+      "y1": 188,
+      "x2": 124,
+      "y2": 302,
+      "width": 114,
+      "height": 114,
+      "offset_x": 10,
+      "offset_y": 188
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  },
+  "max": {
+    "keypoint": {
+      "x": 251.0,
+      "y": 242.08
+    },
+    "ground_truth": 10.0,
+    "crop": {
+      "x1": 194,
+      "y1": 185,
+      "x2": 308,
+      "y2": 299,
+      "width": 114,
+      "height": 114,
+      "offset_x": 194,
+      "offset_y": 185
+    },
+    "ocr_detections_count": 1,
+    "numeric_candidates_count": 1,
+    "all_detections": [
+      {
+        "text": "10",
+        "confidence": 0.9964281320571899,
+        "bbox": [
+          [
+            14.333333333333334,
+            15.333333333333334
+          ],
+          [
+            38.333333333333336,
+            15.333333333333334
+          ],
+          [
+            38.333333333333336,
+            40.333333333333336
+          ],
+          [
+            14.333333333333334,
+            40.333333333333336
+          ]
+        ],
+        "bbox_center": [
+          26.333333333333336,
+          27.833333333333336
+        ]
+      }
+    ],
+    "numeric_candidates": [
+      {
+        "text": "10",
+        "confidence": 0.9964281320571899,
+        "bbox_center": [
+          26.333333333333336,
+          27.833333333333336
+        ]
+      }
+    ],
+    "selected_candidate": {
+      "text": "10",
+      "value": 10.0,
+      "confidence": 0.9964281320571899,
+      "center_x": 220.33333333333334,
+      "center_y": 212.83333333333334,
+      "distance_to_keypoint": 42.37702155125529
+    }
+  }
+}

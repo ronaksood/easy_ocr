@@ -1,0 +1,122 @@
+{
+  "image_name": "img221.jpg",
+  "center": {
+    "x": 157.65,
+    "y": 156.47
+  },
+  "gauge_radius_min": 106.12991331382497,
+  "gauge_radius_max": 105.71863837564311,
+  "min": {
+    "keypoint": {
+      "x": 92.94,
+      "y": 240.59
+    },
+    "ground_truth": -30.0,
+    "crop": {
+      "x1": 44,
+      "y1": 192,
+      "x2": 140,
+      "y2": 288,
+      "width": 96,
+      "height": 96,
+      "offset_x": 44,
+      "offset_y": 192
+    },
+    "ocr_detections_count": 2,
+    "numeric_candidates_count": 1,
+    "all_detections": [
+      {
+        "text": "30",
+        "confidence": 0.9940129518508911,
+        "bbox": [
+          [
+            51.333333333333336,
+            25.0
+          ],
+          [
+            69.0,
+            22.666666666666668
+          ],
+          [
+            71.33333333333333,
+            39.333333333333336
+          ],
+          [
+            53.666666666666664,
+            42.0
+          ]
+        ],
+        "bbox_center": [
+          61.33333333333333,
+          32.25
+        ]
+      },
+      {
+        "text": "inHg",
+        "confidence": 0.955132782459259,
+        "bbox": [
+          [
+            45.333333333333336,
+            38.333333333333336
+          ],
+          [
+            83.0,
+            38.333333333333336
+          ],
+          [
+            83.0,
+            59.0
+          ],
+          [
+            45.333333333333336,
+            59.0
+          ]
+        ],
+        "bbox_center": [
+          64.16666666666667,
+          48.66666666666667
+        ]
+      }
+    ],
+    "numeric_candidates": [
+      {
+        "text": "30",
+        "confidence": 0.9940129518508911,
+        "bbox_center": [
+          61.33333333333333,
+          32.25
+        ]
+      }
+    ],
+    "selected_candidate": {
+      "text": "30",
+      "value": 30.0,
+      "confidence": 0.9940129518508911,
+      "center_x": 105.33333333333333,
+      "center_y": 224.25,
+      "distance_to_keypoint": 20.5082985913291
+    }
+  },
+  "max": {
+    "keypoint": {
+      "x": 245.88,
+      "y": 214.71
+    },
+    "ground_truth": 15.0,
+    "crop": {
+      "x1": 197,
+      "y1": 166,
+      "x2": 293,
+      "y2": 262,
+      "width": 96,
+      "height": 96,
+      "offset_x": 197,
+      "offset_y": 166
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  }
+}

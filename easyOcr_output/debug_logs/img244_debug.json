@@ -1,0 +1,123 @@
+{
+  "image_name": "img244.jpg",
+  "center": {
+    "x": 157.06,
+    "y": 159.41
+  },
+  "gauge_radius_min": 107.25042330918792,
+  "gauge_radius_max": 110.61388023209383,
+  "min": {
+    "keypoint": {
+      "x": 100.59,
+      "y": 250.59
+    },
+    "ground_truth": -1.0,
+    "crop": {
+      "x1": 51,
+      "y1": 201,
+      "x2": 149,
+      "y2": 299,
+      "width": 98,
+      "height": 98,
+      "offset_x": 51,
+      "offset_y": 201
+    },
+    "ocr_detections_count": 1,
+    "numeric_candidates_count": 1,
+    "all_detections": [
+      {
+        "text": "1",
+        "confidence": 0.6005813570798324,
+        "bbox": [
+          [
+            38.0,
+            42.0
+          ],
+          [
+            55.333333333333336,
+            42.0
+          ],
+          [
+            55.333333333333336,
+            68.0
+          ],
+          [
+            38.0,
+            68.0
+          ]
+        ],
+        "bbox_center": [
+          46.66666666666667,
+          55.0
+        ]
+      }
+    ],
+    "numeric_candidates": [
+      {
+        "text": "1",
+        "confidence": 0.6005813570798324,
+        "bbox_center": [
+          46.66666666666667,
+          55.0
+        ]
+      }
+    ],
+    "selected_candidate": {
+      "text": "1",
+      "value": 1.0,
+      "confidence": 0.6005813570798324,
+      "center_x": 97.66666666666667,
+      "center_y": 256.0,
+      "distance_to_keypoint": 6.149307097371031
+    }
+  },
+  "max": {
+    "keypoint": {
+      "x": 248.82,
+      "y": 221.18
+    },
+    "ground_truth": 5.0,
+    "crop": {
+      "x1": 198,
+      "y1": 171,
+      "x2": 298,
+      "y2": 271,
+      "width": 100,
+      "height": 100,
+      "offset_x": 198,
+      "offset_y": 171
+    },
+    "ocr_detections_count": 1,
+    "numeric_candidates_count": 0,
+    "all_detections": [
+      {
+        "text": "Sal",
+        "confidence": 0.009740062164937242,
+        "bbox": [
+          [
+            35.82505520823872,
+            23.006567602908362
+          ],
+          [
+            72.83095797851358,
+            55.794721965490936
+          ],
+          [
+            59.17494479176128,
+            71.99343239709164
+          ],
+          [
+            22.169042021486423,
+            38.87194470117573
+          ]
+        ],
+        "bbox_center": [
+          47.5,
+          47.416666666666664
+        ]
+      }
+    ],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  }
+}

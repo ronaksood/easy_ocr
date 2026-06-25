@@ -1,0 +1,107 @@
+{
+  "image_name": "img49.jpg",
+  "center": {
+    "x": 161.57,
+    "y": 160.94
+  },
+  "gauge_radius_min": 121.03274680845675,
+  "gauge_radius_max": 120.4973111733204,
+  "min": {
+    "keypoint": {
+      "x": 72.3,
+      "y": 242.67
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 17,
+      "y1": 187,
+      "x2": 127,
+      "y2": 297,
+      "width": 110,
+      "height": 110,
+      "offset_x": 17,
+      "offset_y": 187
+    },
+    "ocr_detections_count": 1,
+    "numeric_candidates_count": 0,
+    "all_detections": [
+      {
+        "text": "Runn9",
+        "confidence": 0.04492619140224568,
+        "bbox": [
+          [
+            24.71627914466247,
+            -12.660308407360228
+          ],
+          [
+            96.97298285788155,
+            26.082297598754863
+          ],
+          [
+            70.28372085533753,
+            74.32697507402689
+          ],
+          [
+            -1.9729828578815507,
+            35.25103573457847
+          ]
+        ],
+        "bbox_center": [
+          47.5,
+          30.75
+        ]
+      }
+    ],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  },
+  "max": {
+    "keypoint": {
+      "x": 248.33,
+      "y": 244.56
+    },
+    "ground_truth": 0.6,
+    "crop": {
+      "x1": 193,
+      "y1": 189,
+      "x2": 303,
+      "y2": 299,
+      "width": 110,
+      "height": 110,
+      "offset_x": 193,
+      "offset_y": 189
+    },
+    "ocr_detections_count": 1,
+    "numeric_candidates_count": 0,
+    "all_detections": [
+      {
+        "text": "0,6",
+        "confidence": 0.9130775332450867,
+        "bbox": [
+          [
+            6.0,
+            14.666666666666666
+          ],
+          [
+            41.666666666666664,
+            14.666666666666666
+          ],
+          [
+            41.666666666666664,
+            41.666666666666664
+          ],
+          [
+            6.0,
+            41.666666666666664
+          ]
+        ],
+        "bbox_center": [
+          23.833333333333332,
+          28.166666666666664
+        ]
+      }
+    ],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  }
+}

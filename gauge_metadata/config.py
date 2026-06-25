@@ -11,12 +11,12 @@ import os
 # Keypoint-based cropping
 # ---------------------------------------------------------------------------
 
-CROP_RATIO: float = float(os.getenv("GAUGE_CROP_RATIO", "0.25"))
+CROP_RATIO: float = float(os.getenv("GAUGE_CROP_RATIO", "0.45"))
 """Ratio of gauge radius used as the half-size of the crop window.
 
-A value of 0.25 means the crop extends 25% of the gauge radius in each
+A value of 0.45 means the crop extends 45% of the gauge radius in each
 direction from the keypoint, yielding a square region whose side length
-equals 50% of the gauge radius.
+equals 90% of the gauge radius.
 """
 
 # ---------------------------------------------------------------------------
@@ -62,4 +62,19 @@ When False, every public function in debug_visualizer is a silent no-op.
 
 DEBUG_OUTPUT_DIR: str = os.getenv("OCR_DEBUG_OUTPUT_DIR", "debug_output")
 """Root directory for all debug artifacts."""
+
+
+# ---------------------------------------------------------------------------
+# Crop preprocessing
+# ---------------------------------------------------------------------------
+
+OCR_UPSCALE_FACTOR: float = float(os.getenv("GAUGE_OCR_UPSCALE_FACTOR", "3.0"))
+"""Factor by which the cropped region is upscaled before OCR."""
+
+CLAHE_CLIP_LIMIT: float = float(os.getenv("GAUGE_CLAHE_CLIP_LIMIT", "2.0"))
+"""Contrast limit for CLAHE preprocessing."""
+
+CLAHE_TILE_GRID_SIZE: tuple[int, int] = (8, 8)
+"""Size of grid for CLAHE local equalization."""
+
 

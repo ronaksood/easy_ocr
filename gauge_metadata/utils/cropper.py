@@ -7,6 +7,7 @@ boundaries.
 
 from __future__ import annotations
 
+import cv2
 import logging
 import math
 from dataclasses import dataclass
@@ -145,3 +146,55 @@ def crop_around_keypoint(
         x2=x2,
         y2=y2,
     )
+
+
+def preprocess_crop(
+    crop_img: np.ndarray,
+    upscale_factor: float = 3.0,
+    clip_limit: float = 2.0,
+    tile_grid_size: tuple[int, int] = (8, 8),
+) -> np.ndarray:
+    """Preprocess a cropped gauge region to improve OCR accuracy.
+
+    Pipeline:
+    1. Grayscale conversion.
+    2. CLAHE (Contrast Limited Adaptive Histogram Equalization).
+    3. N-x Upscaling using cubic interpolation.
+
+    Args:
+        crop_img: BGR crop image numpy array.
+        upscale_factor: Factor to upscale the crop.
+        clip_limit: Threshold for contrast limiting in CLAHE.
+        tile_grid_size: Size of grid for histogram equalization.
+
+    Returns:
+        Preprocessed (grayscale, contrast-enhanced, upscaled) image.
+    """
+    # 1. Grayscale
+    if len(crop_img.shape) == 3 and crop_img.shape[2] == 3:
+        gray = cv2.cvtColor(crop_img, cv2.COLOR_BGR2GRAY)
+    else:
+        gray = crop_img.copy()
+
+    # 2. CLAHE
+    clahe = cv2.createCLAHE(clipLimit=clip_limit, tileGridSize=tile_grid_size)
+    equalized = clahe.apply(gray)
+
+    # 3. Upscale (using Cubic interpolation)
+    if upscale_factor != 1.0:
+        height, width = equalized.shape[:2]
+        new_w = int(round(width * upscale_factor))
+        new_h = int(round(height * upscale_factor))
+        upscaled = cv2.resize(
+            equalized, (new_w, new_h), interpolation=cv2.INTER_CUBIC
+        )
+        logger.info(
+            "Preprocessed crop: shape %s -> %s (upscale %.1fx)",
+            crop_img.shape,
+            upscaled.shape,
+            upscale_factor,
+        )
+        return upscaled
+
+    logger.info("Preprocessed crop: shape %s -> %s", crop_img.shape, equalized.shape)
+    return equalized

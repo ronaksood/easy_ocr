@@ -83,6 +83,7 @@ class KeypointDebugInfo:
     numeric_candidates: list[OcrDetection] = field(default_factory=list)
     selected_candidate: NumericCandidate | None = None
     ground_truth: float | None = None
+    preprocessed_image: np.ndarray | None = None
 
 
 @dataclass
@@ -225,6 +226,7 @@ def collect_keypoint_debug(
     ground_truth: float | None = None,
     offset_x: int = 0,
     offset_y: int = 0,
+    preprocessed_image: np.ndarray | None = None,
 ) -> KeypointDebugInfo:
     """Collect debug data for a single keypoint extraction.
 
@@ -254,6 +256,7 @@ def collect_keypoint_debug(
         numeric_candidates=list(numeric),
         selected_candidate=selected,
         ground_truth=ground_truth,
+        preprocessed_image=preprocessed_image,
     )
 
 
@@ -307,15 +310,20 @@ def save_debug_artifacts(
         if kd is None:
             continue
         sel_val = f"{kd.selected_candidate.value}" if kd.selected_candidate else "None"
-        gt_val = f"{kd.ground_truth}" if kd.ground_truth is not None else "?"
-        match = "✓" if (
+        gt_val = f"{kd.ground_truth}" if kd.ground_truth is not None else "None"
+
+        if kd.ground_truth is None:
+            match = ""
+        elif (
             kd.selected_candidate
-            and kd.ground_truth is not None
             and abs(kd.selected_candidate.value - kd.ground_truth) < 0.01
-        ) else "✗"
+        ):
+            match = " PASS"
+        else:
+            match = " FAIL"
+
         lines.append(
-            f"{kd.label.upper()}: pred={sel_val} gt={gt_val} {match} "
-            f"| OCR={len(kd.all_detections)} num={len(kd.numeric_candidates)}"
+            f"{kd.label.upper()}: pred={sel_val} gt={gt_val}{match}"
         )
 
     for i, line in enumerate(lines):
@@ -330,24 +338,12 @@ def save_debug_artifacts(
         (debug_info.min_debug, "crops_min"),
         (debug_info.max_debug, "crops_max"),
     ]:
-        if kd is None or kd.crop_result is None:
+        if kd is None or kd.preprocessed_image is None:
             continue
 
-        # Raw crop.
-        raw_path = dirs[crop_dir_key] / f"{stem}.jpg"
-        cv2.imwrite(str(raw_path), kd.crop_result.image)
-
-        # Annotated crop with OCR boxes.
-        annotated_crop = _draw_ocr_detections_on_crop(
-            crop_img=kd.crop_result.image,
-            all_detections=kd.all_detections,
-            numeric_candidates=kd.numeric_candidates,
-            selected=kd.selected_candidate,
-            offset_x=kd.crop_result.offset_x,
-            offset_y=kd.crop_result.offset_y,
-        )
-        ann_path = dirs[crop_dir_key] / f"{stem}_annotated.jpg"
-        cv2.imwrite(str(ann_path), annotated_crop)
+        # Preprocessed crop renamed as img_name_min.jpg or img_name_max.jpg
+        crop_path = dirs[crop_dir_key] / f"{stem}_{kd.label}.jpg"
+        cv2.imwrite(str(crop_path), kd.preprocessed_image)
 
     # ── 3. JSON log ─────────────────────────────────────────────────────
     log_data = _build_log_entry(debug_info)

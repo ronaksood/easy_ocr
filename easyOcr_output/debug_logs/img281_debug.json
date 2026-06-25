@@ -1,0 +1,130 @@
+{
+  "image_name": "img281.jpg",
+  "center": {
+    "x": 162.94,
+    "y": 135.88
+  },
+  "gauge_radius_min": 49.91466818481317,
+  "gauge_radius_max": 48.25296674817001,
+  "min": {
+    "keypoint": {
+      "x": 127.65,
+      "y": 171.18
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 104,
+      "y1": 148,
+      "x2": 150,
+      "y2": 194,
+      "width": 46,
+      "height": 46,
+      "offset_x": 104,
+      "offset_y": 148
+    },
+    "ocr_detections_count": 2,
+    "numeric_candidates_count": 2,
+    "all_detections": [
+      {
+        "text": "20",
+        "confidence": 0.9987364185502079,
+        "bbox": [
+          [
+            0.0,
+            4.0
+          ],
+          [
+            9.333333333333334,
+            4.0
+          ],
+          [
+            9.333333333333334,
+            14.666666666666666
+          ],
+          [
+            0.0,
+            14.666666666666666
+          ]
+        ],
+        "bbox_center": [
+          4.666666666666667,
+          9.333333333333332
+        ]
+      },
+      {
+        "text": "10",
+        "confidence": 0.36791541960312557,
+        "bbox": [
+          [
+            4.0,
+            16.0
+          ],
+          [
+            15.333333333333334,
+            16.0
+          ],
+          [
+            15.333333333333334,
+            26.0
+          ],
+          [
+            4.0,
+            26.0
+          ]
+        ],
+        "bbox_center": [
+          9.666666666666668,
+          21.0
+        ]
+      }
+    ],
+    "numeric_candidates": [
+      {
+        "text": "20",
+        "confidence": 0.9987364185502079,
+        "bbox_center": [
+          4.666666666666667,
+          9.333333333333332
+        ]
+      },
+      {
+        "text": "10",
+        "confidence": 0.36791541960312557,
+        "bbox_center": [
+          9.666666666666668,
+          21.0
+        ]
+      }
+    ],
+    "selected_candidate": {
+      "text": "10",
+      "value": 10.0,
+      "confidence": 0.36791541960312557,
+      "center_x": 113.66666666666667,
+      "center_y": 169.0,
+      "distance_to_keypoint": 14.152244030934146
+    }
+  },
+  "max": {
+    "keypoint": {
+      "x": 197.06,
+      "y": 170.0
+    },
+    "ground_truth": 200.0,
+    "crop": {
+      "x1": 175,
+      "y1": 148,
+      "x2": 219,
+      "y2": 192,
+      "width": 44,
+      "height": 44,
+      "offset_x": 175,
+      "offset_y": 148
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  }
+}

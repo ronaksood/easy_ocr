@@ -1,0 +1,96 @@
+{
+  "image_name": "img55.jpg",
+  "center": {
+    "x": 162.83,
+    "y": 165.97
+  },
+  "gauge_radius_min": 88.71706994710772,
+  "gauge_radius_max": 96.91402478485762,
+  "min": {
+    "keypoint": {
+      "x": 104.99,
+      "y": 233.24
+    },
+    "ground_truth": 0.0,
+    "crop": {
+      "x1": 64,
+      "y1": 193,
+      "x2": 144,
+      "y2": 273,
+      "width": 80,
+      "height": 80,
+      "offset_x": 64,
+      "offset_y": 193
+    },
+    "ocr_detections_count": 0,
+    "numeric_candidates_count": 0,
+    "all_detections": [],
+    "numeric_candidates": [],
+    "selected_candidate": null
+  },
+  "max": {
+    "keypoint": {
+      "x": 237.64,
+      "y": 227.58
+    },
+    "ground_truth": 150.0,
+    "crop": {
+      "x1": 193,
+      "y1": 183,
+      "x2": 281,
+      "y2": 271,
+      "width": 88,
+      "height": 88,
+      "offset_x": 193,
+      "offset_y": 183
+    },
+    "ocr_detections_count": 1,
+    "numeric_candidates_count": 1,
+    "all_detections": [
+      {
+        "text": "150",
+        "confidence": 0.9947609901428223,
+        "bbox": [
+          [
+            26.333333333333332,
+            46.333333333333336
+          ],
+          [
+            48.333333333333336,
+            46.333333333333336
+          ],
+          [
+            48.333333333333336,
+            62.333333333333336
+          ],
+          [
+            26.333333333333332,
+            62.333333333333336
+          ]
+        ],
+        "bbox_center": [
+          37.333333333333336,
+          54.333333333333336
+        ]
+      }
+    ],
+    "numeric_candidates": [
+      {
+        "text": "150",
+        "confidence": 0.9947609901428223,
+        "bbox_center": [
+          37.333333333333336,
+          54.333333333333336
+        ]
+      }
+    ],
+    "selected_candidate": {
+      "text": "150",
+      "value": 150.0,
+      "confidence": 0.9947609901428223,
+      "center_x": 230.33333333333334,
+      "center_y": 237.33333333333334,
+      "distance_to_keypoint": 12.18666849015302
+    }
+  }
+}
